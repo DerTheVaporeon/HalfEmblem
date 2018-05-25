@@ -1,0 +1,6 @@
+[MidRight][LoadFerro]
+[MidLeft][LoadSoldier1]
+[MidRight]
+Omae wa mou[Beat][NL]
+shindeiru.[A]
+[MidLeft] NANI?![A][X]

@@ -1,0 +1,106 @@
+# 0x917
+[OpenMidLeft][LoadFace][0x30][0x1]
+No[ToggleMouthMove]...[ToggleMouthMove]! It can't be[ToggleMouthMove]...[ToggleMouthMove][NL]
+I have been defeated[ToggleMouthMove]...![ToggleMouthMove][A][X]
+
+# 0x936
+[OpenMidLeft][LoadFace][0x31][0x1]
+Hyaaargh[ToggleMouthMove]...[ToggleMouthMove]!![A][X]
+
+# 0x961
+[OpenMidLeft][LoadFace][0x32][0x1]
+Guh[ToggleMouthMove]...[ToggleMouthMove]! You[ToggleMouthMove]...[ToggleMouthMove][NL]
+You're late, kids[ToggleMouthMove]...![ToggleMouthMove][ANL]
+We may have not found[ToggleMouthMove]...[ToggleMouthMove][NL]
+the girl[ToggleMouthMove]...[ToggleMouthMove] but[ToggleMouthMove]...[ToggleMouthMove][ANL]
+[CloseEyes]Darna is now-- *cough*[ToggleMouthMove]...[ToggleMouthMove][NL]
+under our control[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0x994
+[OpenMidLeft][LoadFace][0x33][0x1]
+Y[ToggleMouthMove]...[ToggleMouthMove] You are so strong[ToggleMouthMove]...[ToggleMouthMove]![NL]
+However[ToggleMouthMove]...[ToggleMouthMove] [ANL]
+Baein's might is[ToggleMouthMove]...[ToggleMouthMove]! [NL]
+imperishable[ToggleMouthMove]...[ToggleMouthMove][CloseEyes] Gah![A][X]
+
+# 0x9c8
+[OpenMidLeft][LoadFace][0x34][0x1]
+H-Has god truly[ToggleMouthMove]...[ToggleMouthMove] judged[NL]
+me[ToggleMouthMove]...?[ToggleMouthMove] I did[ToggleMouthMove]...[ToggleMouthMove][ANL]
+So much[ToggleMouthMove]...[ToggleMouthMove] For the crown[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc23
+[OpenMidRight][LoadFace][0x2][0x1]
+No... Not when we were[ToggleMouthMove]...[ToggleMouthMove][.....][HalfCloseEyes][NL]
+so close[ToggleMouthMove]...[ToggleMouthMove][A] Forgive me, Feil[ToggleMouthMove]...[ToggleMouthMove][CloseEyes][A][X]
+
+# 0xc24
+[OpenMidRight][LoadFace][0x14][0x1]
+Everyone[ToggleMouthMove]...[ToggleMouthMove][.....][CloseEyes][NL]
+I'm[ToggleMouthMove]...[ToggleMouthMove] sorry[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc25
+[OpenMidRight][LoadFace][0x4][0x1]
+I'm sorry, [Tact][ToggleMouthMove]...[ToggleMouthMove][NL]
+I swore I'd help you[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+And now I have broken[ToggleMouthMove]...[ToggleMouthMove][NL]
+my oath[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc26
+[OpenMidRight][LoadFace][0x6][0x1]
+G-Guh[ToggleMouthMove]...![ToggleMouthMove] I can't...[NL]
+[Tact], please[ToggleMouthMove]live on...[ToggleMouthMove][A][X]
+
+# 0xc27
+[OpenMidRight][LoadFace][0x5][0x1]
+Urgh[ToggleMouthMove]...[ToggleMouthMove] why now?[NL]
+Lord [Tact][ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc28
+[OpenMidRight][LoadFace][0x7][0x1]
+This is also[ToggleMouthMove]...[ToggleMouthMove][NL]
+destiny[ToggleMouthMove]...[ToggleMouthMove] or[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc29
+[OpenMidRight][LoadFace][0x8][0x1]
+No[ToggleMouthMove]...[ToggleMouthMove] I don't want to[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+[CloseEyes][Tact][ToggleMouthMove]...[ToggleMouthMove] I[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc2a
+[OpenMidRight][LoadFace][0xe][0x1]
+I-I don't want to die[ToggleMouthMove]...[ToggleMouthMove][NL]
+Not[CloseEyes][ToggleMouthMove]...[ToggleMouthMove] yet[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc2b
+[OpenMidRight][LoadFace][0x9][0x1]
+Guh[ToggleMouthMove]...[ToggleMouthMove] I am not sure[NL]
+what's worse anymore[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Following [Tact]'s[NL]
+squad or[ToggleMouthMove]...[ToggleMouthMove] dying[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc2c
+[OpenMidRight][LoadFace][0xc][0x1]
+Argh[ToggleMouthMove]...[ToggleMouthMove] This is[NL]
+where my tale ends[ToggleMouthMove]...[ToggleMouthMove] isn't it?[CloseEyes][A][X]
+
+# 0xc2d
+[OpenMidRight][LoadFace][0xa][0x1]
+Ngh...![ToggleMouthMove]...[ToggleMouthMove] I[ToggleMouthMove]...[ToggleMouthMove][NL]
+[OpenMidRight]My country[ToggleMouthMove]...[ToggleMouthMove] They need me[ToggleMouthMove]...![ToggleMouthMove][A][X]
+
+# 0xc2f
+[OpenMidRight][LoadFace][0x10][0x1]
+Ah[ToggleMouthMove]...![ToggleMouthMove][NL]
+K-Kyria[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc30
+[OpenMidRight][LoadFace][0x11][0x1]
+M-My country[ToggleMouthMove]...![ToggleMouthMove] Father[ToggleMouthMove]...[ToggleMouthMove][NL]
+Karan[ToggleMouthMove]...[ToggleMouthMove][CloseEyes] I'm sorry[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+# 0xc34
+[OpenMidRight][LoadFace][0x2c][0x1]
+Ah[ToggleMouthMove]...![ToggleMouthMove] M-Master[NL]
+Roland[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I-I am afraid I won't[NL][CloseEyes]
+be able[ToggleMouthMove]...[ToggleMouthMove] to[ToggleMouthMove]...[ToggleMouthMove][A][X]

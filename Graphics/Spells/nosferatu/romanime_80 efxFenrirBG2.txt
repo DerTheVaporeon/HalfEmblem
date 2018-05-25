@@ -1,0 +1,22 @@
+//It is necessary to use common palette.Only the palette of the first image is used, and after that, it is treated as if the common palette is used.
+1 romanime_80_efxFenrirBG2_g000.png
+1 romanime_80_efxFenrirBG2_g001.png
+1 romanime_80_efxFenrirBG2_g002.png
+1 romanime_80_efxFenrirBG2_g003.png
+1 romanime_80_efxFenrirBG2_g004.png
+1 romanime_80_efxFenrirBG2_g005.png
+1 romanime_80_efxFenrirBG2_g006.png
+1 romanime_80_efxFenrirBG2_g007.png
+1 romanime_80_efxFenrirBG2_g008.png
+1 romanime_80_efxFenrirBG2_g009.png
+1 romanime_80_efxFenrirBG2_g010.png
+1 romanime_80_efxFenrirBG2_g011.png
+1 romanime_80_efxFenrirBG2_g012.png
+1 romanime_80_efxFenrirBG2_g013.png
+1 romanime_80_efxFenrirBG2_g014.png
+1 romanime_80_efxFenrirBG2_g015.png
+1 romanime_80_efxFenrirBG2_g016.png
+1 romanime_80_efxFenrirBG2_g017.png
+2 romanime_80_efxFenrirBG2_g018.png
+2 romanime_80_efxFenrirBG2_g019.png
+4 romanime_80_efxFenrirBG2_g020.png

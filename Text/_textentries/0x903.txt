@@ -1,0 +1,3 @@
+[MidLeft][LoadAlma]
+This text is a[NL]
+placeholder![A][X]

@@ -1,0 +1,5 @@
+[OpenMidRight][LoadFace][0x2c][0x1]
+Ah[ToggleMouthMove]...![ToggleMouthMove] M-Master[NL]
+Roland[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+I-I am afraid I won't[NL][CloseEyes]
+be able[ToggleMouthMove]...[ToggleMouthMove] to[ToggleMouthMove]...[ToggleMouthMove][A][X]

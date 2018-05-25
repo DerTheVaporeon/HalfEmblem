@@ -1,0 +1,4 @@
+	PUSH
+	ORG (TextTable+(4*0x212))
+	WORD 0x8202bd10
+	POP //tactician name

@@ -1,0 +1,18 @@
+//It is necessary to use common palette.Only the palette of the first image is used, and after that, it is treated as if the common palette is used.
+2 romanime_95_efxThunderstormBG_g000.png
+2 romanime_95_efxThunderstormBG_g001.png
+2 romanime_95_efxThunderstormBG_g002.png
+2 romanime_95_efxThunderstormBG_g003.png
+8 romanime_95_efxThunderstormBG_g007.png
+3 romanime_95_efxThunderstormBG_g004.png
+8 romanime_95_efxThunderstormBG_g009.png
+1 romanime_95_efxThunderstormBG_g007.png
+8 romanime_95_efxThunderstormBG_g009.png
+2 romanime_95_efxThunderstormBG_g005.png
+8 romanime_95_efxThunderstormBG_g009.png
+1 romanime_95_efxThunderstormBG_g008.png
+8 romanime_95_efxThunderstormBG_g009.png
+2 romanime_95_efxThunderstormBG_g006.png
+6 romanime_95_efxThunderstormBG_g009.png
+38 romanime_95_efxThunderstormBG_g009.png
+38 romanime_95_efxThunderstormBG_g010.png

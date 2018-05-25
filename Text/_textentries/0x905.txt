@@ -1,0 +1,5 @@
+[MidLeft][LoadJack]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidRight]A village! What does[NL]
+it have?[A]
+[MidLeft][ToggleSmile]Something for you![A][X]

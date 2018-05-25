@@ -1,0 +1,11 @@
+//It is necessary to use common palette.Only the palette of the first image is used, and after that, it is treated as if the common palette is used.
+1 romanime_45_efxSuperdruidBG3_g000.png
+1 romanime_45_efxSuperdruidBG3_g001.png
+1 romanime_45_efxSuperdruidBG3_g002.png
+1 romanime_45_efxSuperdruidBG3_g003.png
+1 romanime_45_efxSuperdruidBG3_g004.png
+1 romanime_45_efxSuperdruidBG3_g005.png
+1 romanime_45_efxSuperdruidBG3_g006.png
+1 romanime_45_efxSuperdruidBG3_g007.png
+1 romanime_45_efxSuperdruidBG3_g008.png
+3 romanime_45_efxSuperdruidBG3_g009.png

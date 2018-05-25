@@ -1,0 +1,5042 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	RudranoHihouKingoftheMountain_grp  voicegroup000
+	#define	RudranoHihouKingoftheMountain_pri  0
+	#define	RudranoHihouKingoftheMountain_rev  0
+	#define	RudranoHihouKingoftheMountain_mvl  127
+	#define	RudranoHihouKingoftheMountain_key  0
+	#define	RudranoHihouKingoftheMountain_tbs  1
+	#define	RudranoHihouKingoftheMountain_exg  0
+	#define	RudranoHihouKingoftheMountain_cmp  1
+
+	// .rodata
+	//	RudranoHihouKingoftheMountain
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+RudranoHihouKingoftheMountain_1:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   113*RudranoHihouKingoftheMountain_tbs/2
+	BYTE		VOICE   81
+	BYTE		VOL     30*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W36
+	BYTE		N04     Fn0   v100
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+RudranoHihouKingoftheMountain_1_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_1_001:
+	BYTE		N04     An0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		N10     An0 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        An0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_1_002:
+	BYTE		N04     Gn0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N10     Gn0 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        An0 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_1_003:
+	BYTE		N04     En0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N06     Gn0 
+	BYTE	W06
+	BYTE		N10     En0 
+	BYTE	W12
+	BYTE		N04     Bn0 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        Gs0 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_1_004:
+	BYTE		N04     En0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		N10     Gn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 006   ----------------------------------------
+RudranoHihouKingoftheMountain_1_006:
+	BYTE		N04     Gn0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N10     Gn0 
+	BYTE	W12
+	BYTE		N04     Gn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE	PEND
+// 007   ----------------------------------------
+RudranoHihouKingoftheMountain_1_007:
+	BYTE		N04     Gn0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N10     Gn0 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+RudranoHihouKingoftheMountain_1_008:
+	BYTE		N10     Fn0   v100
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Gn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_002
+// 011   ----------------------------------------
+RudranoHihouKingoftheMountain_1_011:
+	BYTE		N04     En0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Gs0 
+	BYTE	W06
+	BYTE		N10     En0 
+	BYTE	W12
+	BYTE		N04     Bn0 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        Gs0 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_1_012:
+	BYTE		N04     Fn0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		N10     Gn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+RudranoHihouKingoftheMountain_1_013:
+	BYTE		N04     An0   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		N10     An0 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        An0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_007
+// 016   ----------------------------------------
+RudranoHihouKingoftheMountain_1_016:
+	BYTE		N10     Fn0   v100
+	BYTE	W12
+	BYTE		        Cn1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 017   ----------------------------------------
+RudranoHihouKingoftheMountain_1_017:
+	BYTE		N04     En0   v100
+	BYTE	W07
+	BYTE		        En1 
+	BYTE	W05
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE	PEND
+// 018   ----------------------------------------
+RudranoHihouKingoftheMountain_1_018:
+	BYTE		N04     Fn0   v100
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 019   ----------------------------------------
+RudranoHihouKingoftheMountain_1_019:
+	BYTE		N04     En0   v100
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 021   ----------------------------------------
+RudranoHihouKingoftheMountain_1_021:
+	BYTE		N04     Gn0   v100
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_021
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_006
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_016
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_021
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_021
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_018
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_1_B1
+RudranoHihouKingoftheMountain_1_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_006
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_1_016
+// 065   ----------------------------------------
+	BYTE		N04     En0   v100
+	BYTE	W07
+	BYTE		        En1 
+	BYTE	W05
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0   v096
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+// 066   ----------------------------------------
+	BYTE		        Fn0   v092
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1   v088
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1   v084
+	BYTE	W06
+// 067   ----------------------------------------
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        En0   v076
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+// 068   ----------------------------------------
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0   v072
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0   v068
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+// 069   ----------------------------------------
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1   v064
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1   v060
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+// 070   ----------------------------------------
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1   v056
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0   v052
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+// 071   ----------------------------------------
+	BYTE		        Gn0   v048
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1   v044
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0   v040
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1   v036
+	BYTE	W06
+	BYTE		        Gn0 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+// 072   ----------------------------------------
+	BYTE		        Fn0   v032
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1   v028
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0   v024
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1   v020
+	BYTE	W06
+	BYTE		        Fn0 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+RudranoHihouKingoftheMountain_2:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   62
+	BYTE		VOL     30*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE	W36
+	BYTE		N16     Fn2   v100
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+RudranoHihouKingoftheMountain_2_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_2_001:
+	BYTE		N10     An2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_2_002:
+	BYTE		N10     Gn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_2_003:
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_2_004:
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Dn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 007   ----------------------------------------
+RudranoHihouKingoftheMountain_2_007:
+	BYTE		N10     Dn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_2_B1
+RudranoHihouKingoftheMountain_2_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_2_004
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+RudranoHihouKingoftheMountain_3:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		VOL     30*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-16
+	BYTE		MOD     35
+	BYTE	W72
+RudranoHihouKingoftheMountain_3_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE		N68     En3   v100
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W72
+// 024   ----------------------------------------
+RudranoHihouKingoftheMountain_3_024:
+	BYTE		N54     Fn3   v100
+	BYTE	W54
+	BYTE		N16     Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE		N68     En3 
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_3_024
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_3_B1
+RudranoHihouKingoftheMountain_3_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE		N68     En3   v100
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE		        Fn3   v092
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE		        En3   v084
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE		        Fn3   v076
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE		        Gn3   v068
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE		        Fn3   v060
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE		        Gn3   v048
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE		N54     Fn3   v032
+	BYTE	W54
+	BYTE		N16     Gn3   v020
+	BYTE	W18
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+RudranoHihouKingoftheMountain_4:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   62
+	BYTE		VOL     20*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-8
+	BYTE	W36
+	BYTE	W03
+	BYTE		N16     Fn2   v100
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W15
+RudranoHihouKingoftheMountain_4_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_4_001:
+	BYTE	W03
+	BYTE		N10     An2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_4_002:
+	BYTE	W03
+	BYTE		N10     Gn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_4_003:
+	BYTE	W03
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_4_004:
+	BYTE	W03
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Dn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W21
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 007   ----------------------------------------
+RudranoHihouKingoftheMountain_4_007:
+	BYTE	W03
+	BYTE		N10     Dn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_4_B1
+RudranoHihouKingoftheMountain_4_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_002
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_4_004
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+RudranoHihouKingoftheMountain_5:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   62
+	BYTE		VOL     30*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-16
+	BYTE	W72
+RudranoHihouKingoftheMountain_5_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+RudranoHihouKingoftheMountain_5_009:
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 010   ----------------------------------------
+RudranoHihouKingoftheMountain_5_010:
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE		N10     En3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_5_012:
+	BYTE		N10     Fn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Gn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_010
+// 015   ----------------------------------------
+RudranoHihouKingoftheMountain_5_015:
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_012
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_010
+// 035   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_012
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_5_B1
+RudranoHihouKingoftheMountain_5_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_010
+// 059   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_009
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_010
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_5_012
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+RudranoHihouKingoftheMountain_6:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   94
+	BYTE		VOL     30*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-12
+	BYTE	W72
+RudranoHihouKingoftheMountain_6_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+RudranoHihouKingoftheMountain_6_009:
+	BYTE	W03
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 010   ----------------------------------------
+RudranoHihouKingoftheMountain_6_010:
+	BYTE	W03
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 011   ----------------------------------------
+RudranoHihouKingoftheMountain_6_011:
+	BYTE	W03
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_6_012:
+	BYTE	W03
+	BYTE		N10     Fn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Gn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W21
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_010
+// 015   ----------------------------------------
+RudranoHihouKingoftheMountain_6_015:
+	BYTE	W03
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_012
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_012
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_6_B1
+RudranoHihouKingoftheMountain_6_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_009
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_010
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_6_012
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+RudranoHihouKingoftheMountain_7:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		VOL     44*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE	W72
+RudranoHihouKingoftheMountain_7_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_7_001:
+	BYTE	W18
+	BYTE		N16     An3   v100
+	BYTE	W18
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_7_002:
+	BYTE	W18
+	BYTE		N16     Gn3   v100
+	BYTE	W18
+	BYTE		        An3 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_002
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_7_004:
+	BYTE	W18
+	BYTE		N16     Cn4   v100
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+RudranoHihouKingoftheMountain_7_005:
+	BYTE	W18
+	BYTE		N16     An3   v100
+	BYTE	W18
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		        Dn4 
+	BYTE	W18
+	BYTE	PEND
+// 006   ----------------------------------------
+RudranoHihouKingoftheMountain_7_006:
+	BYTE	W18
+	BYTE		N16     Bn3   v100
+	BYTE	W18
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		        Dn4 
+	BYTE	W18
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_006
+// 008   ----------------------------------------
+RudranoHihouKingoftheMountain_7_008:
+	BYTE	W18
+	BYTE		N16     Cn4   v100
+	BYTE	W36
+	BYTE		        Dn4 
+	BYTE	W17
+	BYTE		PAN     c_v+9
+	BYTE	W01
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE		N68     Bn2 
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 024   ----------------------------------------
+RudranoHihouKingoftheMountain_7_024:
+	BYTE		N52     Cn3   v100
+	BYTE	W54
+	BYTE		N16     Dn3 
+	BYTE	W18
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE		PAN     c_v+22
+	BYTE	W18
+	BYTE		N16     An3 
+	BYTE	W18
+	BYTE		        Cn4 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_002
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_006
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_008
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE		N68     Bn2   v100
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE		        Cn3 
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_024
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_7_B1
+RudranoHihouKingoftheMountain_7_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_002
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_006
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_7_008
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE		N68     Bn2   v100
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE		        Cn3   v092
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE		        Bn2   v084
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE		        Cn3   v076
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE		        Dn3   v068
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE		        Cn3   v060
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE		        Dn3   v048
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE		N52     Cn3   v032
+	BYTE	W54
+	BYTE		N16     Dn3   v020
+	BYTE	W18
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+RudranoHihouKingoftheMountain_8:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   85
+	BYTE		VOL     46*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-16
+	BYTE	W36
+	BYTE		N16     An2   v100
+	BYTE	W18
+	BYTE		        Bn2 
+	BYTE	W18
+RudranoHihouKingoftheMountain_8_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_8_001:
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_8_002:
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N10     En3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_8_004:
+	BYTE		N10     Fn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Gn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_002
+// 007   ----------------------------------------
+RudranoHihouKingoftheMountain_8_007:
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_004
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_002
+// 027   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_004
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_8_B1
+RudranoHihouKingoftheMountain_8_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_002
+// 051   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_8_004
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+RudranoHihouKingoftheMountain_9:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   52
+	BYTE		VOL     46*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+12
+	BYTE	W72
+RudranoHihouKingoftheMountain_9_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_9_001:
+	BYTE	W18
+	BYTE		N16     En3   v100
+	BYTE	W18
+	BYTE		        An3 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_9_002:
+	BYTE	W18
+	BYTE		N16     Dn3   v100
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_9_003:
+	BYTE	W18
+	BYTE		N16     En3   v100
+	BYTE	W18
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_9_004:
+	BYTE	W18
+	BYTE		N16     An3   v100
+	BYTE	W36
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+RudranoHihouKingoftheMountain_9_005:
+	BYTE	W18
+	BYTE		N16     En3   v100
+	BYTE	W18
+	BYTE		        An3 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 006   ----------------------------------------
+RudranoHihouKingoftheMountain_9_006:
+	BYTE	W18
+	BYTE		N16     Gn3   v100
+	BYTE	W18
+	BYTE		        An3 
+	BYTE	W18
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_006
+// 008   ----------------------------------------
+RudranoHihouKingoftheMountain_9_008:
+	BYTE	W18
+	BYTE		N16     An3   v100
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_006
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_008
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_9_B1
+RudranoHihouKingoftheMountain_9_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_006
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_9_008
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+RudranoHihouKingoftheMountain_10:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   62
+	BYTE		VOL     35*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+16
+	BYTE	W72
+RudranoHihouKingoftheMountain_10_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 010   ----------------------------------------
+RudranoHihouKingoftheMountain_10_010:
+	BYTE		N10     Dn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 011   ----------------------------------------
+RudranoHihouKingoftheMountain_10_011:
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_10_012:
+	BYTE		N10     An3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N10     En3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_010
+// 015   ----------------------------------------
+RudranoHihouKingoftheMountain_10_015:
+	BYTE		N10     Bn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_012
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_012
+// 037   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_012
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_10_B1
+RudranoHihouKingoftheMountain_10_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_012
+// 061   ----------------------------------------
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W60
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_010
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_10_012
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+RudranoHihouKingoftheMountain_11:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   81
+	BYTE		VOL     35*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE	W36
+	BYTE	W03
+	BYTE		N16     An2   v100
+	BYTE	W18
+	BYTE		        Bn2 
+	BYTE	W15
+RudranoHihouKingoftheMountain_11_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_11_001:
+	BYTE	W03
+	BYTE		N10     Cn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_11_002:
+	BYTE	W03
+	BYTE		N10     Bn2   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_11_003:
+	BYTE	W03
+	BYTE		N10     En3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_11_004:
+	BYTE	W03
+	BYTE		N10     Fn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Gn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W21
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_002
+// 007   ----------------------------------------
+RudranoHihouKingoftheMountain_11_007:
+	BYTE	W03
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 010   ----------------------------------------
+RudranoHihouKingoftheMountain_11_010:
+	BYTE	W03
+	BYTE		N10     Dn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_007
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_11_012:
+	BYTE	W03
+	BYTE		N10     An3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W24
+	BYTE		N10     Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W21
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_010
+// 015   ----------------------------------------
+RudranoHihouKingoftheMountain_11_015:
+	BYTE	W03
+	BYTE		N10     Bn3   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_012
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_012
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_11_B1
+RudranoHihouKingoftheMountain_11_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_002
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_003
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_010
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_11_012
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 12 (Midi-Chn.13) ****************//
+
+RudranoHihouKingoftheMountain_12:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   40
+	BYTE		VOL     48*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+4
+	BYTE	W72
+RudranoHihouKingoftheMountain_12_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+RudranoHihouKingoftheMountain_12_017:
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+RudranoHihouKingoftheMountain_12_018:
+	BYTE		N32     An3   v100
+	BYTE		N32     Cn4 
+	BYTE	W36
+	BYTE		N04     Cn3 
+	BYTE		N04     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Fn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE	PEND
+// 019   ----------------------------------------
+RudranoHihouKingoftheMountain_12_019:
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04   
+	BYTE		N04     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+RudranoHihouKingoftheMountain_12_020:
+	BYTE		N32     An3   v100
+	BYTE		N32     Cn4 
+	BYTE	W42
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE	PEND
+// 021   ----------------------------------------
+RudranoHihouKingoftheMountain_12_021:
+	BYTE		N40     Dn3   v100
+	BYTE		N40     Gn3 
+	BYTE	W42
+	BYTE		N04     Bn2 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 022   ----------------------------------------
+RudranoHihouKingoftheMountain_12_022:
+	BYTE		N04     Fn3   v100
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		N56     Fn3 
+	BYTE		N56     Cn4 
+	BYTE	W60
+	BYTE	PEND
+// 023   ----------------------------------------
+RudranoHihouKingoftheMountain_12_023:
+	BYTE		N32     Gn3   v100
+	BYTE		N16     Dn4 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE		N04     Bn2 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 024   ----------------------------------------
+RudranoHihouKingoftheMountain_12_024:
+	BYTE		N04     Fn3   v100
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gs3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE		N22     An3 
+	BYTE	W24
+	BYTE		N04     Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_021
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_12_024
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_12_B1
+RudranoHihouKingoftheMountain_12_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04     Bn3   v096
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+// 066   ----------------------------------------
+	BYTE		N32     An3   v092
+	BYTE		N32     Cn4 
+	BYTE	W36
+	BYTE		N04     Cn3   v088
+	BYTE		N04     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Fn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        An3   v084
+	BYTE		N04     Cn4 
+	BYTE	W06
+// 067   ----------------------------------------
+	BYTE		N32     Gn3 
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04     Bn3   v080
+	BYTE		N04     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+	BYTE		        Bn3   v076
+	BYTE		N04     Dn4 
+	BYTE	W12
+// 068   ----------------------------------------
+	BYTE		N32     An3 
+	BYTE		N32     Cn4 
+	BYTE	W42
+	BYTE		N04     Cn4   v072
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gn3   v068
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+// 069   ----------------------------------------
+	BYTE		N40     Dn3 
+	BYTE		N40     Gn3 
+	BYTE	W42
+	BYTE		N04     Bn2   v064
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Dn3   v060
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+// 070   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		N56     Fn3 
+	BYTE		N56     Cn4 
+	BYTE	W60
+// 071   ----------------------------------------
+	BYTE		N32     Gn3   v048
+	BYTE		N16     Dn4 
+	BYTE	W18
+	BYTE		        Gn2   v044
+	BYTE	W18
+	BYTE		N04     Bn2   v040
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Bn2   v036
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+// 072   ----------------------------------------
+	BYTE		        Fn3   v032
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gs3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE		N22     An3 
+	BYTE	W24
+	BYTE		N04     Cn4   v024
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3   v020
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 13 (Midi-Chn.14) ****************//
+
+RudranoHihouKingoftheMountain_13:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   110
+	BYTE		VOL     46*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v-4
+	BYTE	W72
+RudranoHihouKingoftheMountain_13_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+// 011   ----------------------------------------
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W72
+// 013   ----------------------------------------
+	BYTE	W72
+// 014   ----------------------------------------
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W72
+// 017   ----------------------------------------
+RudranoHihouKingoftheMountain_13_017:
+	BYTE	W03
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W09
+	BYTE	PEND
+// 018   ----------------------------------------
+RudranoHihouKingoftheMountain_13_018:
+	BYTE	W03
+	BYTE		N32     An3   v100
+	BYTE		N32     Cn4 
+	BYTE	W36
+	BYTE		N04     Cn3 
+	BYTE		N04     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Fn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W03
+	BYTE	PEND
+// 019   ----------------------------------------
+RudranoHihouKingoftheMountain_13_019:
+	BYTE	W03
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04   
+	BYTE		N04     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W09
+	BYTE	PEND
+// 020   ----------------------------------------
+RudranoHihouKingoftheMountain_13_020:
+	BYTE	W03
+	BYTE		N32     An3   v100
+	BYTE		N32     Cn4 
+	BYTE	W42
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W03
+	BYTE	PEND
+// 021   ----------------------------------------
+RudranoHihouKingoftheMountain_13_021:
+	BYTE	W03
+	BYTE		N40     Dn3   v100
+	BYTE		N40     Gn3 
+	BYTE	W42
+	BYTE		N04     Bn2 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Dn4 
+	BYTE	W03
+	BYTE	PEND
+// 022   ----------------------------------------
+RudranoHihouKingoftheMountain_13_022:
+	BYTE	W03
+	BYTE		N04     Fn3   v100
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		N56     Fn3 
+	BYTE		N56     Cn4 
+	BYTE	W56
+	BYTE	W01
+	BYTE	PEND
+// 023   ----------------------------------------
+RudranoHihouKingoftheMountain_13_023:
+	BYTE	W03
+	BYTE		N32     Gn3   v100
+	BYTE		N16     Dn4 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE		N04     Bn2 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Dn4 
+	BYTE	W03
+	BYTE	PEND
+// 024   ----------------------------------------
+RudranoHihouKingoftheMountain_13_024:
+	BYTE	W03
+	BYTE		N04     Fn3   v100
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gs3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE		N22     An3 
+	BYTE	W24
+	BYTE		N04     Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W03
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W72
+// 037   ----------------------------------------
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	W72
+// 039   ----------------------------------------
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W72
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_021
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_13_024
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_13_B1
+RudranoHihouKingoftheMountain_13_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	W72
+// 058   ----------------------------------------
+	BYTE	W72
+// 059   ----------------------------------------
+	BYTE	W72
+// 060   ----------------------------------------
+	BYTE	W72
+// 061   ----------------------------------------
+	BYTE	W72
+// 062   ----------------------------------------
+	BYTE	W72
+// 063   ----------------------------------------
+	BYTE	W72
+// 064   ----------------------------------------
+	BYTE	W72
+// 065   ----------------------------------------
+	BYTE	W03
+	BYTE		N32     Gn3   v100
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04     Bn3   v096
+	BYTE		N04     Dn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W09
+// 066   ----------------------------------------
+	BYTE	W03
+	BYTE		N32     An3   v092
+	BYTE		N32     Cn4 
+	BYTE	W36
+	BYTE		N04     Cn3   v088
+	BYTE		N04     En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Fn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        An3   v084
+	BYTE		N04     Cn4 
+	BYTE	W03
+// 067   ----------------------------------------
+	BYTE	W03
+	BYTE		N32     Gn3 
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N04     Bn3   v080
+	BYTE		N04     En4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W12
+	BYTE		        Bn3   v076
+	BYTE		N04     Dn4 
+	BYTE	W09
+// 068   ----------------------------------------
+	BYTE	W03
+	BYTE		N32     An3 
+	BYTE		N32     Cn4 
+	BYTE	W42
+	BYTE		N04     Cn4   v072
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3   v068
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W03
+// 069   ----------------------------------------
+	BYTE	W03
+	BYTE		N40     Dn3 
+	BYTE		N40     Gn3 
+	BYTE	W42
+	BYTE		N04     Bn2   v064
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		        Cn3   v060
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Dn4 
+	BYTE	W03
+// 070   ----------------------------------------
+	BYTE	W03
+	BYTE		        Fn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		N56     Fn3   v056
+	BYTE		N56     Cn4 
+	BYTE	W56
+	BYTE	W01
+// 071   ----------------------------------------
+	BYTE	W03
+	BYTE		N32     Gn3   v048
+	BYTE		N16     Dn4 
+	BYTE	W18
+	BYTE		        Gn2   v044
+	BYTE	W18
+	BYTE		N04     Bn2   v040
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Gn3 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Bn2   v036
+	BYTE		N04     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Dn4 
+	BYTE	W03
+// 072   ----------------------------------------
+	BYTE	W03
+	BYTE		        Fn3   v032
+	BYTE		N04     An3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N04     Gs3 
+	BYTE	W06
+	BYTE		N22     Fn3 
+	BYTE		N22     An3 
+	BYTE	W24
+	BYTE		N04     Cn4   v024
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE		N04     En4 
+	BYTE	W06
+	BYTE		        Bn3   v020
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N04     Cn4 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE		N04     Bn3 
+	BYTE	W03
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 14 (Midi-Chn.15) ****************//
+
+RudranoHihouKingoftheMountain_14:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     44*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W72
+RudranoHihouKingoftheMountain_14_B1:
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+RudranoHihouKingoftheMountain_14_009:
+	BYTE		N16     An3   v100
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+RudranoHihouKingoftheMountain_14_010:
+	BYTE		N10     Gn3   v100
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+RudranoHihouKingoftheMountain_14_011:
+	BYTE		N10     Bn3   v100
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE	PEND
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_14_012:
+	BYTE		N10     Cn4   v100
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N16     Bn3 
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE	PEND
+// 013   ----------------------------------------
+RudranoHihouKingoftheMountain_14_013:
+	BYTE		N16     An3   v100
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE	PEND
+// 014   ----------------------------------------
+RudranoHihouKingoftheMountain_14_014:
+	BYTE		N10     Dn4   v100
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+RudranoHihouKingoftheMountain_14_015:
+	BYTE		N16     Dn3   v100
+	BYTE	W18
+	BYTE		        Gn3 
+	BYTE	W18
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 016   ----------------------------------------
+RudranoHihouKingoftheMountain_14_016:
+	BYTE		N10     Cn4   v100
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		N22     Gn3 
+	BYTE	W24
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W72
+// 018   ----------------------------------------
+	BYTE	W72
+// 019   ----------------------------------------
+	BYTE	W72
+// 020   ----------------------------------------
+	BYTE	W72
+// 021   ----------------------------------------
+	BYTE	W72
+// 022   ----------------------------------------
+	BYTE	W72
+// 023   ----------------------------------------
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W72
+// 025   ----------------------------------------
+	BYTE	W72
+// 026   ----------------------------------------
+	BYTE	W72
+// 027   ----------------------------------------
+	BYTE	W72
+// 028   ----------------------------------------
+	BYTE	W72
+// 029   ----------------------------------------
+	BYTE	W72
+// 030   ----------------------------------------
+	BYTE	W72
+// 031   ----------------------------------------
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_010
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_013
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_014
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_016
+// 041   ----------------------------------------
+	BYTE	W72
+// 042   ----------------------------------------
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W72
+// 045   ----------------------------------------
+	BYTE	W72
+// 046   ----------------------------------------
+	BYTE	W72
+// 047   ----------------------------------------
+	BYTE	W72
+// 048   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_14_B1
+RudranoHihouKingoftheMountain_14_B2:
+// 049   ----------------------------------------
+	BYTE	W72
+// 050   ----------------------------------------
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+// 054   ----------------------------------------
+	BYTE	W72
+// 055   ----------------------------------------
+	BYTE	W72
+// 056   ----------------------------------------
+	BYTE	W72
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_010
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_014
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_14_016
+// 065   ----------------------------------------
+	BYTE	W72
+// 066   ----------------------------------------
+	BYTE	W72
+// 067   ----------------------------------------
+	BYTE	W72
+// 068   ----------------------------------------
+	BYTE	W72
+// 069   ----------------------------------------
+	BYTE	W72
+// 070   ----------------------------------------
+	BYTE	W72
+// 071   ----------------------------------------
+	BYTE	W72
+// 072   ----------------------------------------
+	BYTE	W72
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 15 (Midi-Chn.16) ****************//
+
+RudranoHihouKingoftheMountain_15:
+	BYTE	KEYSH   RudranoHihouKingoftheMountain_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     50*RudranoHihouKingoftheMountain_mvl/mxv
+	BYTE		N04     Cn1   v100
+	BYTE	W06
+	BYTE		N03     Fn1 
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N16     An2 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N16     An2 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+RudranoHihouKingoftheMountain_15_B1:
+// 001   ----------------------------------------
+RudranoHihouKingoftheMountain_15_001:
+	BYTE		N04     Cn1   v100
+	BYTE		N16     Cs2 
+	BYTE	W18
+	BYTE		N04     Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+RudranoHihouKingoftheMountain_15_002:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+RudranoHihouKingoftheMountain_15_003:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+RudranoHihouKingoftheMountain_15_004:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gn2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gn2 
+	BYTE	W12
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+RudranoHihouKingoftheMountain_15_005:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Cs2 
+	BYTE	W18
+	BYTE		N04     Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+RudranoHihouKingoftheMountain_15_006:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W18
+	BYTE		N04     Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 008   ----------------------------------------
+RudranoHihouKingoftheMountain_15_008:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     En2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     En2 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 012   ----------------------------------------
+RudranoHihouKingoftheMountain_15_012:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 016   ----------------------------------------
+RudranoHihouKingoftheMountain_15_016:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W12
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W12
+	BYTE		N04   
+	BYTE		N10     Cs2 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE	PEND
+// 017   ----------------------------------------
+RudranoHihouKingoftheMountain_15_017:
+	BYTE		N04     Cn1   v100
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE	PEND
+// 018   ----------------------------------------
+RudranoHihouKingoftheMountain_15_018:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 019   ----------------------------------------
+RudranoHihouKingoftheMountain_15_019:
+	BYTE		N04     Cn1   v100
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 020   ----------------------------------------
+RudranoHihouKingoftheMountain_15_020:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1   v076
+	BYTE	W06
+	BYTE		        Fn1   v100
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_017
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_018
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_019
+// 024   ----------------------------------------
+RudranoHihouKingoftheMountain_15_024:
+	BYTE		N04     Cn1   v100
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_006
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_016
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_017
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_018
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_019
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_017
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_018
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_019
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_024
+	BYTE	GoTo
+	 POIN2	RudranoHihouKingoftheMountain_15_B1
+RudranoHihouKingoftheMountain_15_B2:
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_006
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_003
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	RudranoHihouKingoftheMountain_15_016
+// 065   ----------------------------------------
+	BYTE		N04     Cn1   v100
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Cn1   v096
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+// 066   ----------------------------------------
+	BYTE		        Cn1   v092
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1   v088
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1   v084
+	BYTE	W06
+// 067   ----------------------------------------
+	BYTE		        Cn1 
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1   v080
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Fn1   v076
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+// 068   ----------------------------------------
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1   v072
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1   v068
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+// 069   ----------------------------------------
+	BYTE		        Cn1 
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1   v064
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1   v060
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+// 070   ----------------------------------------
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1   v056
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Cn1   v052
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+// 071   ----------------------------------------
+	BYTE		        Cn1   v048
+	BYTE		N22     Cs2 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fn1   v044
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Cn1   v040
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1   v036
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+// 072   ----------------------------------------
+	BYTE		        Cn1   v032
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1   v028
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Cn1 
+	BYTE	W06
+	BYTE		        Cn1   v024
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1   v020
+	BYTE	W06
+	BYTE		N04   
+	BYTE		N10     Gs1 
+	BYTE	W06
+	BYTE		N04     Fn1 
+	BYTE	W06
+// 073   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+RudranoHihouKingoftheMountain:
+	BYTE	15	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	RudranoHihouKingoftheMountain_pri	// Priority
+	BYTE	RudranoHihouKingoftheMountain_rev	// Reverb.
+
+	POIN2	RudranoHihouKingoftheMountain_grp
+
+	POIN2	RudranoHihouKingoftheMountain_1
+	POIN2	RudranoHihouKingoftheMountain_2
+	POIN2	RudranoHihouKingoftheMountain_3
+	POIN2	RudranoHihouKingoftheMountain_4
+	POIN2	RudranoHihouKingoftheMountain_5
+	POIN2	RudranoHihouKingoftheMountain_6
+	POIN2	RudranoHihouKingoftheMountain_7
+	POIN2	RudranoHihouKingoftheMountain_8
+	POIN2	RudranoHihouKingoftheMountain_9
+	POIN2	RudranoHihouKingoftheMountain_10
+	POIN2	RudranoHihouKingoftheMountain_11
+	POIN2	RudranoHihouKingoftheMountain_12
+	POIN2	RudranoHihouKingoftheMountain_13
+	POIN2	RudranoHihouKingoftheMountain_14
+	POIN2	RudranoHihouKingoftheMountain_15
+
+	

@@ -1,0 +1,115 @@
+Chapter 8
+
+Chapter 8 - Gates of Irony
+*Cursor on Kathy, or, just a black screen fading into a background if you will*
+Morps: Our next destination is to meet up with the True Throne. We're not too far, but I have a bad feeling about this...
+Kathy: I feel the same way...
+Morps: ... Huh? What's going on?
+Villager: Are you Lady Kathy, by any chance?
+Kathy: That's me. What happens?
+Villager: The soldiers of Castle Riache have prepared for your arrival, except, well... it's not a friendly welcome...
+Morps: Huh. Neither is opening the door of my shop and finding Circles asking me to donate when-
+Villager: Who cares about God Circles right now, even if he has to guard us?! Some shady woman came over and decided to take over the castle, and now she holds the Throne hostage.
+Morps: Welp. This sounds worse than I imagined.
+Kathy: What did you imagine?
+Morps: Kirb hacking Radiant Dawn in Mario Party's engine.
+Kathy: ...
+Villager: ...
+Villager: A-Anyway, the best thing you can do is repel or incapacite the soldiers. They did nothing wrong!
+Morps: Oh dear.
+Kathy: We'll do our best. It's not like-
+Villager: Actually, sorry. My memory is foggy. Even his soldiers got taken over, so they were replaced with baddies. Please kill them. I don't give any hecks.
+Morps: ...
+Kathy: Same.
+Morps: Let's go get them, then!
+
+*One prep screen later*
+
+Monika: Ah, you can only imagine the amount of money that you will have if you do this for me~
+Raynor: Aye. Das' mine dream: become the best axe fighter in the sea with the highest loot.
+Astolia: Lady Monika.
+Monika: Ah, Astolia. How wonderous to see you here. Want to prepare a defense force against the upcoming invaders for me?
+Astolia: Anything for you, milady. The Throne must not fall.
+Raynor: Dat' river water fish feels... off. He acts all like a mermaid, but... I think it's just mine head.
+Monika: I wouldn't say it before him. He may be a man of chivalry, but a wrong move is capable of reflecting the true colors.
+Raynor: Huh?
+Monika: Well, then. It's up to you. See you later!
+*warp sound*
+Raynor: ... I don't but the whole "booty" speak. I'm just playin' her to see how far this mess can go. My biggest booty has always been Riache, and it'll always be.
+Soldier: Uh, sir?
+Raynor: Prepare the defenses. I'll meet any challengers 'ere. If in doubt, blow up the shorter road to smithereens and charge.
+Soldier: Yes, sir.
+
+Chapter 11
+Chapter 11x
+Chapter 18
+
+
+Chapter 23
+
+Kathy: We've... hah... made it to the base. (Thank you, Wan...)
+Morps: Dear god. Pain doesn't even describe how much we had to work to appease that woman.
+Kathy: Morps pls.
+Morps: What. Oh shit.
+Kathy: Huh? Something up?
+Morps: Astram- I mean, Astolia is here. He may have escaped his binds at the village!
+Void: Nothing will stop him from actually trying to kill is, isn't that right? I like that attitude. Getting everything out of his way- Oh fucking shit! He's-
+*Bruised, charred Astolia*
+Astolia: Agh... You... You must get out of here... They are all... they are... She's too strong...!
+Morps: Astolia, please, rest easy! Tell us what the hell happened to this volcanic academy! Why is it broken?
+Astolia: I... tried to rebel after my failure... She said I'd regret it... I have no idea how much... I regret it... but I tried like a hero...
+Kathy: You tried? How bad was it?
+Astolia: You... can't win against... Monika... Just... Monika... My wife... died to her... erased... Why...
+[Brown Box: del char "/Astolia.chr" . . . . . Character "astolia.chr" successfully deleted!]
+Kathy: W-What the...
+Morps: FUCK!
+*??? teleports in front of Kathy, Morps runs towards ???. ??? attacks with Python tome, damaging Morps but not killing him. Morps misses his attack.*
+Morps: Urgh...!
+Kathy: Morps!
+???: Huh, he actually survived the command. *giggle*
+Kathy: You!
+Monika: Hi there! I see you've come here to give a look at the remodelations to the Doki Doki Magical Academy! Currently, we- as in, myself, Monika, are working on the technical maintenance!
+Void: You... What did you do to Astolia?!
+Monika: Astolia? He was a mere liability in the middle of my plans, but no worries. The virus is gone, as are the corrupt twin family that used to reside here. Actually, we decided to hang their entire belongings for decoration purposes. Look!
+Kathy: Wha- AAH!
+
+Void: W-What the hell?!
+Morps: Unconceivable...
+Void: How dare you do this... after all what we have gone through to get here?!
+Kathy: ...
+Monika: Oh, it's simple. A tribe of family twins known as the Sayori have been working here, unaware of what would come to their extinction due to their suicidal tendencies. I just helped them with the issue. One of them remains, but she's due to be executed because she's apparently different from the rest.
+Kathy: ... I won't let you do that.
+
+CG fade out
+
+Monika: I'm sorry?
+Kathy: I won't let you turn our hard work to find the Sayori tribe into NOTHING! You've angered me, Monika. I can't tolerate what you've done to this place!
+Monika: *giggle* Isn't that funny? To be fair, you can't stand a chance against me; none ever since I have obtained the mighty Divinestone. Actually, how about I just save myself the trouble of dealing with you?
+[Brown Box: del char "/Kathy.chr" . . . . . Access denied.]
+
+Monika: Wha...
+Void: I don't think you really understand. You have gotten in our way. I would like to talk more about this, but that'd be breaking a rule or two.
+Kathy: What does that mean?
+Void: The game won't allow you to die in a unconvenient, unfair way, or anyone for that matter. This thot was born in Ren.py, so her powers are more or less diminished. Either, or the game was playing along. Fuck, I don't even know what's up with this woman. *grumble fourth wall grumble*
+Monika: Fine. Bring it on. I'll be sitting in my room to observe the much fun you'll have with my friends. Bootleg Monika Army, please. Welcome our new members!
+*Female generics/Fire manaketes enter all over the map*
+
+Monika: Oh, just to make sure...
+*party is split in two*
+Monika: There we go. Now try to convince me not to rip you all appart.
+Kathy: Are you okay, Morps?
+Morps: Fucque. that hurt like a kick to the-
+Void: He just needs to rest. Blocking a erasing code with your hair can be tiring, if heavily damaging.
+Morps: Yeah, just count me out of this fight. Not like I am useful at this point, but... Just a heads up.
+
+-Chapter start-
+Bootleg Monika 1: Oh, you'd look really cute with a straw collar on your neck. Your boyfriend would really love it!
+Sayori: Shut up...
+Bootleg Monika 2: He'd sure loving hanging up with you! I wonder how cute would you look if you actually wear it with a cherry on top!
+Sayori: Shut up!
+Bootleg Monika 3: Girls, can you cut it down for a moment? She's probably too choked up to say anything else. Give her a break~
+Bootleg Monika 4: This is the last one. Think Monika would happen to use her for other purposes?
+Bootleg Monika 3: Well, we were ordered to keep her here until someone decides to barge in and try to save her from her fate. If we don't get any orders in 15 turns, we'll burn her.
+Bootleg Monika 2: Sounds good enough.
+Bootleg Monika 3: Now, let's go back to torturing the worthless magician before her last breath!
+Sayori: Help me! Someone!

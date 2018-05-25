@@ -1,0 +1,5 @@
+[OpenMidLeft][LoadFace][0x33][0x1]
+Y[ToggleMouthMove]...[ToggleMouthMove] You are so strong[ToggleMouthMove]...[ToggleMouthMove]![NL]
+However[ToggleMouthMove]...[ToggleMouthMove] [ANL]
+Baein's might is[ToggleMouthMove]...[ToggleMouthMove]! [NL]
+imperishable[ToggleMouthMove]...[ToggleMouthMove][CloseEyes] Gah![A][X]

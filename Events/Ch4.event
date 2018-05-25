@@ -1,0 +1,275 @@
+﻿EventPointerTable(0x17,Chapter4)
+
+EscapePointPointerTable(4, Ch4EscapePoint)
+Ch4EscapePoint:
+EscapePoint(0, 20, MoveLeft)
+EscapePointEnd
+
+Chapter4:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 LeftStairs [6,0] 0x0
+TURN 0x0 LeftStairs [8,0] 0x0
+TURN 0x0 LeftStairs [10,0] 0x0
+TURN 0x0 RightStairs [4,0] 0x0
+TURN 0x0 RightStairs [6,0] 0x0
+TURN 0x0 RightStairs [8,0] 0x0
+TURN 0x0 MiddleStairs [5,0] 0x0
+TURN 0x0 TheEmpre [13,15] 0x0
+TURN 0x0 Chargee [16,0] 0x0
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,RecruitMitch1,Alma,Mitch)
+CharacterEventBothWays(0x7,RecruitMitch2,Sawada,Mitch)
+CharacterEventBothWays(0x8,RecruitKyria,Mitch,Kyria)
+END_MAIN
+
+LocationBasedEvents:
+Seize(14,1)
+Chest(AngelicRobe,18,12)
+Chest(Thunder,18,14)
+Chest(RedGem,11,16)
+Chest(Elixir,6,23)
+Chest(Restore,15,23)
+Chest(KnightCrest,7,24)
+Door(9,5)
+Door(10,5)
+Door(11,18)
+Door(17,18)
+Door(17,21)
+Door(11,23)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Alma EirikaLord 0x00 Level(5, Ally, 0) [2,27] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [1,27] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [2,26] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [3,27] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [2,28] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [0,28] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [4,28] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [1,29] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [3,29] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT
+
+EnemyUnits1:
+UNIT Luzardo Monk 0x00 Level(7, Enemy, 0) [14,1] 0x2 0x00 0x0 0x00 [Divine, Talisman] NeverMoveAI
+UNIT Kyria Troubadour Luzardo Level(5, Enemy, 0) [14,3] 0x00 0x00 0x0 0x00 [Mend] HealUnits
+UNIT 0x80 Mage Luzardo Level(4, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI
+UNIT 0x80 Monk Luzardo Level(4, Enemy, 1) [17,15] 0x2 0x00 0x0 0x00 [Lightning, ChestKey_5] ChaseOnceApproachedAI
+UNIT 0x80 Soldier Luzardo Level(5, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [17,19] 0x2 0x00 0x0 0x00 [Halberd] ChaseOnceApproachedAI
+UNIT 0x80 Mercenary Luzardo Level(5, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT 0x80 Myrmidon Luzardo Level(5, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [13,14] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [15,14] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [13,12] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [PoisonBow] AttackInRangeAI
+UNIT 0x80 Myrmidon Luzardo Level(5, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [PoisonSword] AttackInRangeAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [2,11] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [14,23] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
+UNIT
+
+EnemyUnits2:
+UNIT 0x80 Shaman Luzardo Level(4, Enemy, 1) [16,23] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
+UNIT 0x80 Archer Luzardo Level(4, Enemy, 1) [13,24] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [17,24] 0x2 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x80 Knight Luzardo Level(4, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x80 Knight Luzardo Level(5, Enemy, 1) [10,6] 0x2 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x80 Archer Luzardo Level(4, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI
+UNIT 0x80 Fighter Luzardo Level(4, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [PoisonAxe] AttackInRangeAI
+UNIT 0x80 Cavalier Luzardo Level(4, Enemy, 1) [6,11] 0x00 0x00 0x0 0x00 [IronSword] ChaseOnceApproachedAI
+UNIT 0x80 Cavalier Luzardo Level(5, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [SteelSword] ChaseOnceApproachedAI
+UNIT 0x80 Mercenary Luzardo Level(5, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [Longsword] PursueWithoutHeedAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [2,9] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Luzardo Level(4, Enemy, 1) [16,9] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [PoisonAxe] ChaseOnceApproachedAI
+UNIT
+
+EnemyUnits3:
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [PoisonAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Luzardo Level(5, Enemy, 1) [15,8] 0x00 0x00 0x0 0x00 [HandAxe] ChaseOnceApproachedAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SteelBow] ChaseOnceApproachedAI
+UNIT 0x80 Archer Luzardo Level(5, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [SteelBow] ChaseOnceApproachedAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Flux] ChaseOnceApproachedAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [Flux] ChaseOnceApproachedAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [1,3] 0x00 0x00 0x0 0x00 [Flux] ChaseOnceApproachedAI
+UNIT 0x80 Shaman Luzardo Level(5, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Flux] ChaseOnceApproachedAI
+UNIT 0x80 Mage Luzardo Level(5, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Fire] ChaseOnceApproachedAI
+UNIT 0x80 Mage Luzardo Level(5, Enemy, 1) [17,4] 0x00 0x00 0x0 0x00 [Fire] ChaseOnceApproachedAI
+UNIT 0x80 Cavalier Luzardo Level(4, Enemy, 1) [1,20] 0x2 0x00 0x0 0x00 [IronBlade, DoorKey] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Luzardo Level(4, Enemy, 1) [3,20] 0x2 0x00 0x0 0x00 [IronLance, DoorKey] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Luzardo Level(4, Enemy, 1) [1,18] 0x2 0x00 0x0 0x00 [SteelSword, Javelin, DoorKey] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Luzardo Level(4, Enemy, 1) [3,18] 0x2 0x00 0x0 0x00 [PoisonLance, Javelin, Antitoxin] PursueWithoutHeedAI
+UNIT
+
+EnemyUnits4:
+UNIT 0x80 Knight Luzardo Level(5, Enemy, 1) [11,19] 0x2 0x00 0x0 0x00 [PoisonLance, Javelin, DoorKey] AttackInRangeAI
+UNIT 0x80 Knight Luzardo Level(5, Enemy, 1) [11,20] 0x2 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
+UNIT 0x80 Soldier Luzardo Level(5, Enemy, 1) [9,19] 0x2 0x00 0x0 0x00 [IronLance, DoorKey] AttackInRangeAI
+UNIT 0x80 Soldier Luzardo Level(5, Enemy, 1) [9,20] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT
+
+GrandThiefAuto:
+UNIT Mitch Thief Alma Level(1, NPC, 0) [7,23] 0x00 0x00 0x0 0x00 [IronSword, Lockpick, Vulnerary] NoAI
+UNIT
+
+ALIGN 4
+	
+LeftStairs:
+ReinforcementEvent(Reinforcements1)
+ENDA	
+
+Reinforcements1:
+UNIT 0x81 Myrmidon Luzardo Level(5, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI
+UNIT 0x81 Mercenary Luzardo Level(5, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [PoisonSword] PursueWithoutHeedAI
+UNIT
+
+RightStairs:
+ReinforcementEvent(Reinforcements2)
+ENDA
+
+Reinforcements2:
+UNIT 0x81 Cavalier Luzardo Level(5, Enemy, 1) [19,19] 0x00 0x00 0x0 0x00 [SteelSword, Javelin] PursueWithoutHeedAI
+UNIT 0x81 Cavalier Luzardo Level(5, Enemy, 1) [19,20] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT
+
+MiddleStairs:
+ReinforcementEvent(Robbers)
+ENDA
+
+Robbers:
+UNIT 0x81 Thief Luzardo Level(5, Enemy, 1) [8,17] 0x00 0x00 0x0 0x00 [Armourslayer, Lockpick] LootingThiefAI
+UNIT 0x81 Thief Luzardo Level(5, Enemy, 1) [8,16] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] LootingThiefAI
+UNIT
+
+TheEmpre:
+ReinforcementEvent(Horsies)
+ENDA
+
+Horsies:
+UNIT 0x81 Cavalier Luzardo Level(5, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x81 Cavalier Luzardo Level(5, Enemy, 1) [18,0] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x81 MageKnight Luzardo Level(5, Enemy, 0) [2,0] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI
+UNIT 0x81 MageKnight Luzardo Level(5, Enemy, 0) [17,0] 0x00 0x00 0x0 0x00 [Fire] PursueWithoutHeedAI
+UNIT
+
+RecruitMitch1:
+Text(RecruitText)
+CUSA Mitch
+NoFade
+ENDA
+
+RecruitMitch2:
+Text(RecruitText)
+CUSA Mitch
+NoFade
+ENDA
+
+RecruitKyria:
+Text(RecruitText)
+CUSA Kyria
+NoFade
+ENDA
+
+Chargee:
+SVAL 0x1 0x0000
+CHAI [1,3]
+SVAL 0x1 0x0000
+CHAI [18,3]
+SVAL 0x1 0x0000
+CHAI [2,4]
+SVAL 0x1 0x0000
+CHAI [17,4]
+ENDA
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 EnemyUnits1
+ENUN
+LOAD1 0x1 EnemyUnits2
+ENUN
+LOAD1 0x1 EnemyUnits3
+ENUN
+LOAD1 0x1 EnemyUnits4
+ENUN
+LOAD1 0x1 GrandThiefAuto
+ENUN
+GotoPrepScreen
+ENDA
+
+ALIGN 4
+
+EndingScene:
+FADI 16
+SVAL 0x2 Kyria
+CALL KyriaStatus
+CHECK_ALIVE Kyria
+BEQ 0x0 0xC 0x0
+MUSC 0x31
+TEXTSHOW PlaceholderText
+TEXTEND
+GOTO 0x1
+LABEL 0x0
+MUSC 0x32
+TEXTSHOW PlaceholderText
+TEXTEND
+LABEL 0x1
+REMA
+Text(0x0,PlaceholderText)
+MUSC 0x40
+Text(0x2,EndOfDemo)
+REMA
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW Credits
+TEXTEND
+REMA
+MNTS 0x0
+//MNC2 0x5
+ENDA
+
+KyriaStatus:
+CHECK_EVBIT 0x8
+BNE 0x80D2 0xC 0x0
+FADI 16
+LABEL 0x80D2
+REMOVEPORTRAITS
+BACG 0xFFFF
+FADU 16
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

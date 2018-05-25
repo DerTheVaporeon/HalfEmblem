@@ -1,0 +1,5 @@
+[MidLeft][LoadONeill]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft]This is a house![NL]
+Also, a placeholder![A]
+[MidRight]Okay.[A][X]

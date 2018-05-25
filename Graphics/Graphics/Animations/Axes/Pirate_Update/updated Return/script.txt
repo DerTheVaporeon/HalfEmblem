@@ -1,0 +1,153 @@
+//begin Mode 1+2
+C03
+C07
+1  p- PirUp_Sept8_1.png
+C41 //Short Axe Swinging
+4   p- PirUp_Sept8_2.png
+15  p- PirUp_Sept8_3.png
+C42 //Long Axe Swinging
+1  p- PirUp_Sept8_4.png
+C30 //Dirt Kickback
+1  p- PirUp_Sept8_5.png
+1  p- PirUp_Sept8_6.png
+1  p- PirUp_Sept8_7p.png
+1  p- PirUp_Sept8_8p.png
+C04 //Prep HP Deplete
+1  p- PirUp_Sept8_9p.png
+1  p- PirUp_Sept8_10p.png
+1  p- PirUp_Sept8_11p.png
+1  p- PirUp_Sept8_12p.png
+C1B //Heavy Step
+C20 //Hit SFX
+C1A //Damage
+1  p- PirUp_Sept8_13p.png
+1  p- PirUp_Sept8_14p.png
+C01 //Wait HP Deplete
+C1B //Heavy Step
+3  p- PirUp_Sept8_15.png
+3  p- PirUp_Sept8_16.png
+2  p- PirUp_Sept8_17.png
+C1B
+3  p- PirUp_Sept8_18.png
+1  p- PirUp_Sept8_19.png
+C06 //Begin enemy turn (? end dodge)
+1  p- PirUp_Sept8_19.png
+C0D //End Dodge Anim (? pass turn)
+~~~
+//begin Mode 3+4
+C03
+C07
+1  p- PirUp_Sept8_1.png
+C41 //Short Swinging
+5  p- PirUp_Sept8_21.png
+15  p- PirUp_Sept8_22.png
+C42 //Long Swinging
+5  p- PirUp_Sept8_23.png
+6  p- PirUp_Sept8_24.png
+9  p- PirUp_Sept8_1.png
+C41 //Short Axe Swinging
+4   p- PirUp_Sept8_2.png
+12  p- PirUp_Sept8_3.png
+C42 //Long Axe Swinging
+1  p- PirUp_Sept8_4.png
+C30 //Dirt Kickback
+1  p- PirUp_Sept8_5.png
+1  p- PirUp_Sept8_6.png
+1  p- PirUp_Sept8_7p.png
+1  p- PirUp_Sept8_8p.png
+C04 //Prep HP Deplete
+1  p- PirUp_Sept8_9p.png
+1  p- PirUp_Sept8_10p.png
+1  p- PirUp_Sept8_11p.png
+1  p- PirUp_Sept8_12p.png
+C1B //Heavy Step
+C20 //Hit SFX
+C0B //Damage
+1  p- PirUp_Sept8_13p.png
+1  p- PirUp_Sept8_14p.png
+C01 //Wait HP Deplete
+C1B //Heavy Step
+3  p- PirUp_Sept8_15.png
+3  p- PirUp_Sept8_16.png
+2  p- PirUp_Sept8_17.png
+C1B
+3  p- PirUp_Sept8_18.png
+1  p- PirUp_Sept8_19.png
+C06 //Begin enemy turn (? end dodge)
+1  p- PirUp_Sept8_19.png
+C0D //End Dodge Anim (? pass turn)
+~~~
+//begin Mode 5
+1  p- PirUp_Sept8_1.png
+~~~
+//begin Mode 6
+1  p- PirUp_Sept8_1.png
+~~~
+//begin Mode 7
+C02
+C0E
+3  p- PirUp_Sept8_43.png
+1  p- PirUp_Sept8_44.png
+C01
+3  p- PirUp_Sept8_45.png
+1  p- PirUp_Sept8_1.png
+C0D
+~~~
+//begin Mode 8
+C02
+C0E
+3  p- PirUp_Sept8_43.png
+1  p- PirUp_Sept8_44.png
+C01
+3  p- PirUp_Sept8_45.png
+1  p- PirUp_Sept8_1.png
+C0D
+~~~
+//begin Mode 9
+1  p- PirUp_Sept8_1.png
+C01
+~~~
+//begin Mode 10
+1  p- PirUp_Sept8_1.png
+C01
+~~~
+//begin Mode 11
+1  p- PirUp_Sept8_1.png
+C01
+~~~
+//begin Mode 12
+C03
+C07
+1  p- PirUp_Sept8_1.png
+C41 //Short Axe Swinging
+4   p- PirUp_Sept8_2.png
+15  p- PirUp_Sept8_3.png
+C42 //Long Axe Swinging
+1  p- PirUp_Sept8_4.png
+C30 //Dirt Kickback
+1  p- PirUp_Sept8_5.png
+1  p- PirUp_Sept8_6.png
+1  p- PirUp_Sept8_7.png
+1  p- PirUp_Sept8_8.png
+C04 //Prep HP Deplete
+1  p- PirUp_Sept8_9.png
+1  p- PirUp_Sept8_10.png
+1  p- PirUp_Sept8_11.png
+1  p- PirUp_Sept8_12.png
+C1B //Heavy Step
+1  p- PirUp_Sept8_13.png
+1  p- PirUp_Sept8_14.png
+C01 //Wait HP Deplete
+C06 //Begin enemy turn (? end dodge)
+C1B //Heavy Step
+3  p- PirUp_Sept8_15.png
+3  p- PirUp_Sept8_16.png
+2  p- PirUp_Sept8_17.png
+C1B
+3  p- PirUp_Sept8_18.png
+1  p- PirUp_Sept8_19.png
+C06 //Begin enemy turn (? end dodge)
+1  p- PirUp_Sept8_19.png
+C0D //End Dodge Anim (? pass turn)
+~~~
+//End of animation script

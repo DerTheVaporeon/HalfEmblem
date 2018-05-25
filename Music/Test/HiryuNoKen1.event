@@ -1,0 +1,3103 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	HiryuNoKen1_grp  voicegroup000
+	#define	HiryuNoKen1_pri  0
+	#define	HiryuNoKen1_rev  0
+	#define	HiryuNoKen1_mvl  127
+	#define	HiryuNoKen1_key  0
+	#define	HiryuNoKen1_tbs  1
+	#define	HiryuNoKen1_exg  0
+	#define	HiryuNoKen1_cmp  1
+
+	// .rodata
+	//	HiryuNoKen1
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+HiryuNoKen1_1:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   170*HiryuNoKen1_tbs/2
+	BYTE		VOICE   93
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v-10
+	BYTE		N08     Fs1   v120
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+// 001   ----------------------------------------
+HiryuNoKen1_1_001:
+	BYTE		N08     Fs1   v120
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 003   ----------------------------------------
+HiryuNoKen1_1_003:
+	BYTE		N08     Dn1   v120
+	BYTE		N08     Gn1 
+	BYTE		N08     Dn2 
+	BYTE		N08     Gn2 
+	BYTE	W12
+	BYTE		N07     Dn1 
+	BYTE		N07     Gn1 
+	BYTE		N07     Dn2 
+	BYTE		N07     Gn2 
+	BYTE	W12
+	BYTE		N08     Dn1 
+	BYTE		N08     Gn1 
+	BYTE		N08     Dn2 
+	BYTE		N08     Gn2 
+	BYTE	W12
+	BYTE		N07     En1 
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N08     En1 
+	BYTE		N08     An1 
+	BYTE		N08     En2 
+	BYTE		N08     An2 
+	BYTE	W12
+	BYTE		N07     En1 
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N08     En1 
+	BYTE		N08     An1 
+	BYTE		N08     En2 
+	BYTE		N08     An2 
+	BYTE	W12
+	BYTE		N07     En1 
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_003
+// 008   ----------------------------------------
+HiryuNoKen1_1_008:
+	BYTE		N11     Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		        Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		N12     En2   v120
+	BYTE		N12     An2 
+	BYTE		N12     En3 
+	BYTE		N12     An3 
+	BYTE	W18
+	BYTE		N11     En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W18
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 011   ----------------------------------------
+HiryuNoKen1_1_011:
+	BYTE		N11     An2   v120
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        An2   v060
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 015   ----------------------------------------
+HiryuNoKen1_1_015:
+	BYTE		N11     Bn1   v120
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v060
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v120
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v060
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Cs2   v120
+	BYTE		N11     Fs2 
+	BYTE		N11     Cs3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Cs2   v060
+	BYTE		N11     Fs2 
+	BYTE		N11     Cs3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_011
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 022   ----------------------------------------
+HiryuNoKen1_1_022:
+	BYTE		N11     Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W18
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W18
+	BYTE		N12     An2   v120
+	BYTE		N12     Dn3 
+	BYTE		N12     An3 
+	BYTE		N12     Dn4 
+	BYTE	W18
+	BYTE		N11     An2   v060
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W18
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+HiryuNoKen1_1_023:
+	BYTE		N11     Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        En3   v120
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        En3   v060
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_011
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_008
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_1_022
+// 071   ----------------------------------------
+	BYTE		N11     Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        En3   v120
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        En3   v060
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_1_B1
+HiryuNoKen1_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+HiryuNoKen1_2:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   4
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v+10
+	BYTE	W12
+	BYTE		N08     Fs1   v120
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+// 001   ----------------------------------------
+HiryuNoKen1_2_001:
+	BYTE		N07     Fs1   v120
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 003   ----------------------------------------
+HiryuNoKen1_2_003:
+	BYTE		N07     Fs1   v120
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Dn1 
+	BYTE		N08     Gn1 
+	BYTE		N08     Dn2 
+	BYTE		N08     Gn2 
+	BYTE	W12
+	BYTE		N07     Dn1 
+	BYTE		N07     Gn1 
+	BYTE		N07     Dn2 
+	BYTE		N07     Gn2 
+	BYTE	W12
+	BYTE		N08     Dn1 
+	BYTE		N08     Gn1 
+	BYTE		N08     Dn2 
+	BYTE		N08     Gn2 
+	BYTE	W12
+	BYTE		N07     En1 
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N08     En1 
+	BYTE		N08     An1 
+	BYTE		N08     En2 
+	BYTE		N08     An2 
+	BYTE	W12
+	BYTE		N07     En1 
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N08     En1 
+	BYTE		N08     An1 
+	BYTE		N08     En2 
+	BYTE		N08     An2 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+HiryuNoKen1_2_004:
+	BYTE		N07     En1   v120
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_003
+// 008   ----------------------------------------
+HiryuNoKen1_2_008:
+	BYTE		N07     En1   v120
+	BYTE		N07     An1 
+	BYTE		N07     En2 
+	BYTE		N07     An2 
+	BYTE	W12
+	BYTE		N11     Fs2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		        Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		N12     En2   v120
+	BYTE		N12     An2 
+	BYTE		N12     En3 
+	BYTE		N12     An3 
+	BYTE	W18
+	BYTE		N11     En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W18
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+HiryuNoKen1_2_009:
+	BYTE		N11     Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		        Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		N12     En2   v120
+	BYTE		N12     An2 
+	BYTE		N12     En3 
+	BYTE		N12     An3 
+	BYTE	W18
+	BYTE		N11     En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W18
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 011   ----------------------------------------
+HiryuNoKen1_2_011:
+	BYTE		N11     Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        An2   v120
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        An2   v060
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+HiryuNoKen1_2_012:
+	BYTE		N11     En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		        Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W18
+	BYTE		N12     En2   v120
+	BYTE		N12     An2 
+	BYTE		N12     En3 
+	BYTE		N12     An3 
+	BYTE	W18
+	BYTE		N11     En2   v060
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W18
+	BYTE		        Fs2   v120
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 015   ----------------------------------------
+HiryuNoKen1_2_015:
+	BYTE		N11     Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        Bn1   v120
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v060
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v120
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Bn1   v060
+	BYTE		N11     En2 
+	BYTE		N11     Bn2 
+	BYTE		N11     En3 
+	BYTE	W12
+	BYTE		        Cs2   v120
+	BYTE		N11     Fs2 
+	BYTE		N11     Cs3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Cs2   v060
+	BYTE		N11     Fs2 
+	BYTE		N11     Cs3 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        En2   v120
+	BYTE		N11     An2 
+	BYTE		N11     En3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_011
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 022   ----------------------------------------
+HiryuNoKen1_2_022:
+	BYTE		N11     Fs2   v060
+	BYTE		N11     Bn2 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W18
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W18
+	BYTE		N12     An2   v120
+	BYTE		N12     Dn3 
+	BYTE		N12     An3 
+	BYTE		N12     Dn4 
+	BYTE	W18
+	BYTE		N11     An2   v060
+	BYTE		N11     Dn3 
+	BYTE		N11     An3 
+	BYTE		N11     Dn4 
+	BYTE	W18
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+HiryuNoKen1_2_023:
+	BYTE		N11     Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        En3   v120
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        En3   v060
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE		        Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		N08     Fs1   v120
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_023
+// 048   ----------------------------------------
+	BYTE	W12
+	BYTE		N08     Fs1   v120
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+	BYTE		N07     Fs1 
+	BYTE		N07     Bn1 
+	BYTE		N07     Fs2 
+	BYTE		N07     Bn2 
+	BYTE	W12
+	BYTE		N08     Fs1 
+	BYTE		N08     Bn1 
+	BYTE		N08     Fs2 
+	BYTE		N08     Bn2 
+	BYTE	W12
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_011
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_012
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_2_022
+// 071   ----------------------------------------
+	BYTE		N11     Bn2   v060
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        En3   v120
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        En3   v060
+	BYTE		N11     An3 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Cs3   v120
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Cs3   v060
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Bn2   v120
+	BYTE		N11     En3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_2_B1
+HiryuNoKen1_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+HiryuNoKen1_3:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v+20
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+// 001   ----------------------------------------
+HiryuNoKen1_3_001:
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 003   ----------------------------------------
+HiryuNoKen1_3_003:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_003
+// 008   ----------------------------------------
+HiryuNoKen1_3_008:
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 011   ----------------------------------------
+HiryuNoKen1_3_011:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        Gn0 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 015   ----------------------------------------
+HiryuNoKen1_3_015:
+	BYTE		N10     En0   v120
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En0 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_011
+// 020   ----------------------------------------
+HiryuNoKen1_3_020:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_020
+// 022   ----------------------------------------
+HiryuNoKen1_3_022:
+	BYTE		N10     An0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_022
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_020
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_022
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_008
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_011
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_020
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_020
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_3_022
+// 071   ----------------------------------------
+	BYTE		N10     An0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_3_B1
+HiryuNoKen1_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+HiryuNoKen1_4:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   38
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v-20
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+// 001   ----------------------------------------
+HiryuNoKen1_4_001:
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 003   ----------------------------------------
+HiryuNoKen1_4_003:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_003
+// 008   ----------------------------------------
+HiryuNoKen1_4_008:
+	BYTE		N10     Bn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 011   ----------------------------------------
+HiryuNoKen1_4_011:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        Gn0 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 015   ----------------------------------------
+HiryuNoKen1_4_015:
+	BYTE		N10     En0   v120
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En0 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_011
+// 020   ----------------------------------------
+HiryuNoKen1_4_020:
+	BYTE		N10     Gn0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_020
+// 022   ----------------------------------------
+HiryuNoKen1_4_022:
+	BYTE		N10     An0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_022
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_020
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_020
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_022
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_022
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_008
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_011
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_020
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_020
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_4_022
+// 071   ----------------------------------------
+	BYTE		N10     An0   v120
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N10   
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_4_B1
+HiryuNoKen1_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+HiryuNoKen1_5:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   92
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v+10
+	BYTE		TIE     Fs2   v120
+	BYTE		TIE     Bn2 
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 003   ----------------------------------------
+HiryuNoKen1_5_003:
+	BYTE		N32     Dn2   v120
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		        En2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		N23   
+	BYTE		N23     Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+HiryuNoKen1_5_004:
+	BYTE		TIE     Fs2   v120
+	BYTE		TIE     Bn2 
+	BYTE	W96
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 015   ----------------------------------------
+HiryuNoKen1_5_015:
+	BYTE		N32     Dn2   v120
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		N56     En2 
+	BYTE		N56     An2 
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 020   ----------------------------------------
+HiryuNoKen1_5_020:
+	BYTE		TIE     Dn2   v120
+	BYTE		TIE     Gn2 
+	BYTE	W96
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 022   ----------------------------------------
+	BYTE		N96     En2 
+	BYTE		N96     An2 
+	BYTE	W96
+// 023   ----------------------------------------
+HiryuNoKen1_5_023:
+	BYTE		N23     Fs2   v120
+	BYTE		N23     Bn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		N23   
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_020
+// 045   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 046   ----------------------------------------
+	BYTE		N96     En2   v120
+	BYTE		N96     An2 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_004
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_5_020
+// 069   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 070   ----------------------------------------
+	BYTE		N96     En2   v120
+	BYTE		N96     An2 
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE		N23     Fs2 
+	BYTE		N23     Bn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		N23   
+	BYTE		N23     Fs3 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_5_B1
+HiryuNoKen1_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+HiryuNoKen1_6:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     47*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v-10
+	BYTE		TIE     Fs2   v120
+	BYTE		TIE     Bn2 
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 003   ----------------------------------------
+HiryuNoKen1_6_003:
+	BYTE		N32     Dn2   v120
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		        En2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		N23   
+	BYTE		N23     Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+HiryuNoKen1_6_004:
+	BYTE		TIE     Fs2   v120
+	BYTE		TIE     Bn2 
+	BYTE	W96
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 015   ----------------------------------------
+HiryuNoKen1_6_015:
+	BYTE		N32     Dn2   v120
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		N56     En2 
+	BYTE		N56     An2 
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 020   ----------------------------------------
+HiryuNoKen1_6_020:
+	BYTE		TIE     Dn2   v120
+	BYTE		TIE     Gn2 
+	BYTE	W96
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 022   ----------------------------------------
+	BYTE		N96     En2 
+	BYTE		N96     An2 
+	BYTE	W96
+// 023   ----------------------------------------
+HiryuNoKen1_6_023:
+	BYTE		N23     Fs2   v120
+	BYTE		N23     Bn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		N23   
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_015
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_020
+// 045   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 046   ----------------------------------------
+	BYTE		N96     En2   v120
+	BYTE		N96     An2 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_023
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_015
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_004
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        Bn2 
+	BYTE	W01
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_003
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_6_020
+// 069   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+// 070   ----------------------------------------
+	BYTE		N96     En2   v120
+	BYTE		N96     An2 
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE		N23     Fs2 
+	BYTE		N23     Bn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		N23   
+	BYTE		N23     Fs3 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_6_B1
+HiryuNoKen1_6_B2:
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+HiryuNoKen1_7:
+	BYTE	KEYSH   HiryuNoKen1_key+0
+HiryuNoKen1_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     48*HiryuNoKen1_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N11     Bn0   v120
+	BYTE		N96     Cs2 
+	BYTE	W24
+	BYTE		N11     Bn0 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+// 001   ----------------------------------------
+HiryuNoKen1_7_001:
+	BYTE		N11     Bn0   v120
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 003   ----------------------------------------
+HiryuNoKen1_7_003:
+	BYTE		N11     Bn0   v120
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Dn1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+HiryuNoKen1_7_004:
+	BYTE		N11     Bn0   v120
+	BYTE		N96     Cs2 
+	BYTE	W24
+	BYTE		N11     Bn0 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 007   ----------------------------------------
+HiryuNoKen1_7_007:
+	BYTE		N11     Bn0   v120
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE		N11     Dn2 
+	BYTE	W12
+	BYTE		N06     En1 
+	BYTE		N12     Cn2 
+	BYTE	W06
+	BYTE		N06     En1 
+	BYTE	W06
+	BYTE		N11     Bn0 
+	BYTE		N11     Dn1 
+	BYTE		N06     Bn1 
+	BYTE		N11     Cs2 
+	BYTE	W06
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N12     En1 
+	BYTE		N12     Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+HiryuNoKen1_7_008:
+	BYTE		N11     Bn0   v120
+	BYTE		N06     Fs1 
+	BYTE		N96     Cs2 
+	BYTE	W06
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N11     Bn0 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+HiryuNoKen1_7_009:
+	BYTE		N11     Bn0   v120
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N11     Bn0 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 011   ----------------------------------------
+HiryuNoKen1_7_011:
+	BYTE		N11     Dn1   v120
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N11     Bn0 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Dn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N01     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_011
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	HiryuNoKen1_7_009
+// 071   ----------------------------------------
+	BYTE		N11     Dn1   v120
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N11     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn1 
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N11     Bn0 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Dn1 
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N01     Dn1 
+	BYTE		N06     Fs1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Cn1 
+	BYTE		N11     As1 
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	HiryuNoKen1_7_B1
+HiryuNoKen1_7_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+HiryuNoKen1:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	HiryuNoKen1_pri	// Priority
+	BYTE	HiryuNoKen1_rev	// Reverb.
+
+	POIN2	HiryuNoKen1_grp
+
+	POIN2	HiryuNoKen1_1
+	POIN2	HiryuNoKen1_2
+	POIN2	HiryuNoKen1_3
+	POIN2	HiryuNoKen1_4
+	POIN2	HiryuNoKen1_5
+	POIN2	HiryuNoKen1_6
+	POIN2	HiryuNoKen1_7
+
+	

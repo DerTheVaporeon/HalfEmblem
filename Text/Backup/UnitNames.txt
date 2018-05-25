@@ -1,0 +1,23 @@
+# 0x213 Xemnas_Name
+Xemnas[X]
+
+# 0x214 Tatoh_Name
+Tatoh[X]
+
+# 0x215 Alvin_Name
+Alvin[X]
+
+# 0x216 Vojtir_Name
+Vojtir[X]
+
+# 0x217 Chen_Name
+Chen[X]
+
+# 0x218 John_Name
+John[X]
+
+# 0x233 Althea_Name
+Althea[X]
+
+# 0x249 Shaquille_Name
+Shaquille[X]

@@ -1,0 +1,214 @@
+﻿EventPointerTable(0xA,Chapter1)
+
+ALIGN 4
+
+Chapter1:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+TurnBasedEvents:
+TURN 0x0 Pirates [2,0] 0x0
+TURN 0x0 Pirates [3,0] 0x0
+TURN 0x0 MercBoy [3,0] 0x0
+TURN 0x0 Ponies [5,0] 0x0
+TURN 0x0 Ponies [6,0] 0x0
+TURN 0x0 Ponies [7,0] 0x0
+TURN 0x0 Soldiers [8,0] 0x0
+TURN 0x0 Drawbridge [8,0] 0x0
+TURN 0x0 Soldiers [9,0] 0x0
+TURN 0x0 Cavs [9,0] 0x0
+TURN 0x0 Cavs [10,0] 0x0
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,TalkingToMerc,Alma,Ferro)
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,GemVillage,1,11)
+Village(0x9,ElixirVillage,9,3)
+House(0xa,House1,16,2)
+House(0xb,House2,10,11)
+SHOP 0x0 Vendor [3,10] 0x17
+END_MAIN
+
+ALIGN 4
+MiscBasedEvents:
+DefeatBoss(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Alma EirikaLord 0x00 Level(1, Ally, 0) [16,4] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [15,3] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Chen Cavalier_F Alma Level(1, Ally, 0) [16,6] 0x00 0x00 0x0 0x00 [IronSword, Javelin] NoAI
+UNIT Alvin Cavalier Alma Level(1, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [SteelSword, IronLance] NoAI
+UNIT Tatoh Knight Alma Level(3, Ally, 0) [14,6] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Althea PegasusKnight Alma Level(1, Ally, 0) [17,3] 0x00 0x00 0x0 0x00 [SlimLance, Javelin] NoAI
+UNIT John Archer Alma Level(1, Ally, 0) [15,5] 0x00 0x00 0x0 0x00 [IronBow, ShortBow] NoAI
+UNIT Vojtir Priest Alma Level(1, Ally, 0) [17,5] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT 
+
+EnemyUnits:
+UNIT Follin Pirate 0x00 Level(3, Enemy, 0) [16,16] 0x2 0x00 0x0 0x00 [SteelAxe, HandAxe] NeverMoveAI
+UNIT 0x80 Cavalier Follin Level(2, Enemy, 1) [15,16] 0x2 0x00 0x0 0x00 [SteelSword, Javelin] ChaseOnceApproachedAI
+UNIT 0x80 Cavalier Follin Level(2, Enemy, 1) [16,15] 0x0 0x00 0x0 0x00 [IronLance, IronSword] ChaseOnceApproachedAI
+UNIT 0x80 Soldier Follin Level(2, Enemy, 1) [10,12] 0x0 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI
+UNIT 0x80 Soldier Follin Level(2, Enemy, 1) [9,13] 0x0 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI
+UNIT 0x80 Archer Follin Level(2, Enemy, 1) [11,13] 0x0 0x00 0x0 0x00 [IronBow] ChaseOnceApproachedAI
+UNIT 0x80 Archer Follin Level(2, Enemy, 1) [10,14] 0x0 0x00 0x0 0x00 [IronBow] ChaseOnceApproachedAI
+UNIT 0x81 Knight Follin Level(2, Enemy, 1) [1,11] 0x0 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x80 Fighter Follin Level(2, Enemy, 1) [3,12] 0x0 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Follin Level(2, Enemy, 1) [4,7] 0x0 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Pirate Follin Level(2, Enemy, 1) [1,5] 0x0 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT 0x80 Pirate Follin Level(2, Enemy, 1) [2,4] 0x0 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT 0x80 Cavalier Follin Level(2, Enemy, 1) [10,4] 0x0 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x80 Cavalier_F Follin Level(2, Enemy, 1) [9,5] 0x0 0x00 0x0 0x00 [SlimLance] ChaseOnceApproachedAI
+UNIT 0x80 Cavalier Follin Level(2, Enemy, 1) [8,6] 0x0 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI
+UNIT 0x80 Mercenary Follin Level(2, Enemy, 1) [7,14] 0x0 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Follin Level(2, Enemy, 1) [3,8] 0x2 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Knight Follin Level(2, Enemy, 1) [7,10] 0x0 0x00 0x0 0x00 [IronLance] GuardTileAI
+UNIT 0x80 Knight Follin Level(2, Enemy, 1) [6,10] 0x0 0x00 0x0 0x00 [IronLance, Javelin] GuardTileAI
+UNIT 0x80 Knight Follin Level(2, Enemy, 1) [5,10] 0x0 0x00 0x0 0x00 [IronLance] GuardTileAI
+UNIT 0x80 Soldier Follin Level(2, Enemy, 1) [7,16] 0x0 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
+UNIT
+
+MercBoy:
+LOAD1 0x1 Die
+ENUN
+TEXTSTART
+TEXTSHOW Ferrlol
+TEXTEND
+REMA
+StartBattle
+  MissedAttack(Ferro,0)
+  CriticalHit(Ferro,30)
+EndAttack
+FIG1 Ferro 0x81 0x0
+SET_SOMETHING 0x81
+DISA_IF 0x81
+CUMO Ferro
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW Ferrkek
+TEXTEND
+REMA
+NoFade
+ENDA
+
+Die:
+UNIT Ferro Mercenary Alma Level(3, Ally, 0) [0,12] 0x00 0x00 0x1 REDA_Ferro [Armorslayer, IronSword] NoAI
+UNIT
+
+REDA_Ferro:
+	REDA [1,12] 0 0 0 0
+
+Drawbridge:
+TILECHANGE 0x4
+NoFade
+ENDA	
+	
+ALIGN 4	
+Pirates:
+ReinforcementEvent(PirateReinforcements)
+ENDA
+
+PirateReinforcements:
+UNIT 0x80 Pirate Follin Level(2, Enemy, 1) [0,5] 0x0 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT 0x80 Pirate Follin Level(2, Enemy, 1) [0,6] 0x0 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT
+
+Ponies:
+ReinforcementEvent(PegasiReinforcements)
+ENDA
+
+PegasiReinforcements:
+UNIT 0x80 PegasusKnight Follin Level(2, Enemy, 1) [10,17] 0x0 0x00 0x0 0x00 [SlimLance] PursueWithoutHeedAI
+UNIT
+
+Soldiers:
+ReinforcementEvent(Soldierforcements)
+ENDA
+
+Soldierforcements:
+UNIT 0x80 Soldier Follin Level(2, Enemy, 1) [6,17] 0x0 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT
+
+Cavs:
+ReinforcementEvent(Cavforcements)
+ENDA
+
+Cavforcements:
+UNIT 0x80 Cavalier_F Follin Level(2, Enemy, 1) [17,16] 0x0 0x00 0x1 REDA_Back1 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Follin Level(2, Enemy, 1) [17,17] 0x0 0x00 0x1 REDA_Back2 [IronLance] PursueWithoutHeedAI
+UNIT
+
+REDA_Back1:
+	REDA [16,15] 0 0 0 0
+REDA_Back2:
+	REDA [15,16] 0 0 0 0
+
+GemVillage:
+VillageEventItem(Village_Text, 0x0, RedGem)
+
+ElixirVillage:
+VillageEventItem(Village_Text, 0x0, Elixir)
+
+TalkingToMerc:
+Text(RecruitText)
+NoFade
+ENDA
+
+House1:
+Text(0x0,House_Text)
+ENDA
+
+House2:
+Text(0x0,House_Text)
+ENDA
+
+ALIGN 4	
+
+Vendor:
+SHLI Heal Vulnerary
+
+ALIGN 4	
+	
+BeginningScene:
+LOAD2 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+ENDA
+
+ALIGN 4	
+	
+EndingScene:
+ENUT 0x89
+MNCH 0x2
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

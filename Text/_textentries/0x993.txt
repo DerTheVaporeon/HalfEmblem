@@ -1,0 +1,5 @@
+[OpenMidLeft][LoadFace][0x33][0x1]
+A-Ah! W-Who's there![NL]
+[ToggleMouthMove]...[ToggleMouthMove] It's you![A][NL]
+None of you shall cross[NL]
+into my master's halls![A][X]

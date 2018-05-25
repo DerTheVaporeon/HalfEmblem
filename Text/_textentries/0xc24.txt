@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0x14][0x1]
+Everyone[ToggleMouthMove]...[ToggleMouthMove][.....][CloseEyes][NL]
+I'm[ToggleMouthMove]...[ToggleMouthMove] sorry[ToggleMouthMove]...[ToggleMouthMove][A][X]

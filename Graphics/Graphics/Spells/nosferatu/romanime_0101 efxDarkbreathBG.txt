@@ -1,0 +1,18 @@
+//It is necessary to use common palette.Only the palette of the first image is used, and after that, it is treated as if the common palette is used.
+12 romanime_0101_efxDarkbreathBG_g011.png
+2 romanime_0101_efxDarkbreathBG_g000.png
+2 romanime_0101_efxDarkbreathBG_g001.png
+2 romanime_0101_efxDarkbreathBG_g002.png
+2 romanime_0101_efxDarkbreathBG_g001.png
+2 romanime_0101_efxDarkbreathBG_g003.png
+2 romanime_0101_efxDarkbreathBG_g004.png
+2 romanime_0101_efxDarkbreathBG_g005.png
+2 romanime_0101_efxDarkbreathBG_g006.png
+2 romanime_0101_efxDarkbreathBG_g011.png
+2 romanime_0101_efxDarkbreathBG_g007.png
+2 romanime_0101_efxDarkbreathBG_g008.png
+2 romanime_0101_efxDarkbreathBG_g011.png
+2 romanime_0101_efxDarkbreathBG_g009.png
+2 romanime_0101_efxDarkbreathBG_g010.png
+2 romanime_0101_efxDarkbreathBG_g008.png
+10 romanime_0101_efxDarkbreathBG_g011.png

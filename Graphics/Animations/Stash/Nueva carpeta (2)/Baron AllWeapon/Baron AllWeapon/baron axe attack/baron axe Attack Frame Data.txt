@@ -1,0 +1,182 @@
+/// - Mode 1
+C03
+C07
+4  p- st01 Ata24.png
+6  p- Ata01.png
+6  p- Ata02.png
+6  p- Ata03.png
+6  p- Ata04.png
+C1B
+C15
+2  p- Ata05.png
+C2B
+2  p- Ata06.png
+2  p- Ata07.png
+6  p- Ata08.png
+25  p- Ata09.png
+C22
+C04
+2  p- Ata10.png
+C23
+1  p- Ata11.png
+3  p- Ata12.png
+C15
+C1A
+C20
+4  p- Ata13.png
+6  p- Ata14.png
+C01
+8  p- Ata15.png
+C15
+4  p- Ata16.png
+C2B
+4  p- Ata17.png
+4  p- Ata18.png
+8  p- Ata19.png
+8  p- Ata20.png
+C15
+C2B
+6  p- Ata21.png
+6  p- Ata22.png
+6  p- Ata23.png
+6  p- st01 Ata24.png
+C06
+6  p- Ata25.png
+4  p- st01 Ata24.png
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+4  p- st01 Ata24.png
+6  p- Ata01.png
+6  p- Ata02.png
+6  p- Ata03.png
+6  p- Ata04.png
+C1B
+C15
+2  p- Ata05.png
+C2B
+2  p- Ata06.png
+2  p- Ata07.png
+6  p- Ata08.png
+55  p- Ata09.png
+C22
+C04
+2  p- Ata10.png
+C23
+1  p- Ata11.png
+3  p- Ata12.png
+C15
+C1A
+C20
+4  p- Ata13.png
+6  p- Ata14.png
+C01
+8  p- Ata15.png
+C15
+4  p- Ata16.png
+C2B
+4  p- Ata17.png
+4  p- Ata18.png
+8  p- Ata19.png
+8  p- Ata20.png
+C15
+C2B
+6  p- Ata21.png
+6  p- Ata22.png
+6  p- Ata23.png
+6  p- st01 Ata24.png
+C06
+6  p- Ata25.png
+4  p- st01 Ata24.png
+C0D
+~~~
+/// - Mode 5
+1  p- st01 Ata24.png
+~~~
+/// - Mode 6
+1  p- st01 Ata24.png
+~~~
+/// - Mode 7
+C02
+1  p- st01 Ata24.png
+3  p- Dod01.png
+C2B
+1  p- Dod02.png
+C01
+3  p- Dod01.png
+C2B
+1  p- st01 Ata24.png
+C0D
+~~~
+/// - Mode 8
+C02
+1  p- st01 Ata24.png
+3  p- Dod01.png
+C2B
+1  p- Dod02.png
+C01
+3  p- Dod01.png
+C2B
+1  p- st01 Ata24.png
+C0D
+~~~
+/// - Mode 9
+1  p- st01 Ata24.png
+C01
+~~~
+/// - Mode 10
+1  p- st01 Ata24.png
+C01
+~~~
+/// - Mode 11
+1  p- st01 Ata24.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+4  p- st01 Ata24.png
+6  p- Ata01.png
+6  p- Ata02.png
+6  p- Ata03.png
+6  p- Ata04.png
+C1B
+C15
+2  p- Ata05.png
+C2B
+2  p- Ata06.png
+2  p- Ata07.png
+6  p- Ata08.png
+25  p- Ata09.png
+C22
+C04
+2  p- Ata10.png
+C23
+1  p- Ata11.png
+3  p- Ata12.png
+C15
+4  p- Ata13.png
+6  p- Ata14.png
+C01
+8  p- Ata15.png
+C15
+4  p- Ata16.png
+C2B
+4  p- Ata17.png
+4  p- Ata18.png
+8  p- Ata19.png
+8  p- Ata20.png
+C15
+C2B
+6  p- Ata21.png
+6  p- Ata22.png
+6  p- Ata23.png
+6  p- st01 Ata24.png
+C06
+6  p- Ata25.png
+4  p- st01 Ata24.png
+C0D
+~~~
+/// - End of animation

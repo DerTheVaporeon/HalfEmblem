@@ -1,0 +1,6 @@
+[MidLeft][LoadSoldier1]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft]To the C! To the O![NL]
+To the N! Constitution![A]
+[MidRight]No no no. It's[NL]
+[Red]CONSCRIPTION[Red]! Get in![A][X]

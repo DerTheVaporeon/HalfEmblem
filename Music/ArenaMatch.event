@@ -1,0 +1,989 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	ArenaMatch_grp  voicegroup000
+	#define	ArenaMatch_pri  0
+	#define	ArenaMatch_rev  0
+	#define	ArenaMatch_mvl  127
+	#define	ArenaMatch_key  0
+	#define	ArenaMatch_tbs  1
+	#define	ArenaMatch_exg  0
+	#define	ArenaMatch_cmp  1
+
+	// .rodata
+	//	ArenaMatch
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.4) ****************//
+
+ArenaMatch_1:
+	BYTE	KEYSH   ArenaMatch_key+0
+ArenaMatch_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   63*ArenaMatch_tbs/2
+	BYTE		VOICE   91
+	BYTE		VOL     0*ArenaMatch_mvl/mxv
+	BYTE	W02
+	BYTE		PAN     c_v+25
+	BYTE	W01
+	BYTE		N05     As4   v040
+	BYTE	W07
+	BYTE		PAN     c_v-34
+	BYTE		N05     As4   v032
+	BYTE	W07
+	BYTE		PAN     c_v+34
+	BYTE		N04     As4   v028
+	BYTE	W07
+	BYTE		PAN     c_v-43
+	BYTE		N04     As4   v020
+	BYTE	W48
+	BYTE	W02
+	BYTE		VOL     120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-25
+	BYTE		N01     Ds3   v092
+	BYTE	W03
+	BYTE		N04     Ds3   v084
+	BYTE	W07
+	BYTE		VOL     119*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE		VOL     118*ArenaMatch_mvl/mxv
+	BYTE		N03     Ds3   v052
+	BYTE	W01
+	BYTE		VOL     116*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        114*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        112*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        111*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        109*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        107*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        106*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-34
+	BYTE		VOL     105*ArenaMatch_mvl/mxv
+	BYTE		N03   
+	BYTE	W01
+	BYTE		VOL     103*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        101*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        99*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        97*ArenaMatch_mvl/mxv
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE		        95*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        93*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        92*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+34
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     90*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        88*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        86*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        84*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        82*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        80*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        79*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-43
+	BYTE		VOL     78*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     76*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        74*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        73*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        71*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        69*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        67*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        66*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+43
+	BYTE		VOL     65*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     63*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        61*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        59*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        57*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        55*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        54*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        53*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-49
+	BYTE		VOL     52*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     50*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        48*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        46*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        44*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        42*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        40*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        39*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+49
+	BYTE		VOL     38*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     36*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ArenaMatch_mvl/mxv
+	BYTE	W13
+	BYTE		        120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE		N01     Fn3   v092
+	BYTE	W03
+	BYTE		N04     Fn3   v084
+	BYTE	W07
+	BYTE		VOL     119*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-25
+	BYTE		VOL     118*ArenaMatch_mvl/mxv
+	BYTE		N03     Fn3   v052
+	BYTE	W01
+	BYTE		VOL     116*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        115*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        113*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        111*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        109*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        107*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v+34
+	BYTE		VOL     106*ArenaMatch_mvl/mxv
+	BYTE		N03   
+	BYTE	W01
+	BYTE		VOL     104*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        102*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        100*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        98*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        97*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        95*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        94*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-34
+	BYTE		VOL     93*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     91*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        89*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        88*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        86*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        84*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        82*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        81*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+43
+	BYTE		VOL     80*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     79*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        77*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        75*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        73*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        71*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        70*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        69*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-43
+	BYTE		VOL     68*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     66*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        64*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        62*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        61*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        59*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        57*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        56*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+49
+	BYTE		VOL     55*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		VOL     53*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        52*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        50*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        48*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        46*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        44*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v-49
+	BYTE		VOL     43*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     41*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        39*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ArenaMatch_mvl/mxv
+	BYTE	W13
+	BYTE		        120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-14
+	BYTE	W01
+	BYTE		N02     Cn3   v080
+	BYTE	W03
+	BYTE		        Gn3   v072
+	BYTE	W03
+	BYTE		        Fs3   v068
+	BYTE	W03
+	BYTE		        Fn3   v072
+	BYTE	W03
+	BYTE		        As3   v084
+	BYTE	W03
+	BYTE		        An3   v072
+	BYTE	W03
+	BYTE		        Gs3   v068
+	BYTE	W03
+	BYTE		        Cs4   v076
+	BYTE	W03
+	BYTE		        Cn4   v080
+	BYTE	W03
+	BYTE		        Bn3   v092
+	BYTE	W03
+	BYTE		        En4   v072
+	BYTE	W03
+	BYTE		        Ds4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Gn4   v084
+	BYTE	W03
+	BYTE		        Fs4   v068
+	BYTE	W03
+	BYTE		        Fn4   v072
+	BYTE	W03
+	BYTE		N01     As4   v064
+	BYTE	W02
+	BYTE		N06     As4   v104
+	BYTE	W08
+	BYTE		PAN     c_v+14
+	BYTE		N06     As4   v052
+	BYTE	W07
+	BYTE		PAN     c_v-25
+	BYTE		N05     As4   v044
+	BYTE	W04
+	BYTE	GoTo
+	 POIN2	ArenaMatch_1_B1
+ArenaMatch_1_B2:
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.5) ****************//
+
+ArenaMatch_2:
+	BYTE	KEYSH   ArenaMatch_key+0
+ArenaMatch_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   63
+	BYTE		VOL     0*ArenaMatch_mvl/mxv
+	BYTE	W02
+	BYTE		PAN     c_v-25
+	BYTE		N05     As4   v040
+	BYTE	W07
+	BYTE		PAN     c_v+34
+	BYTE		N05     As4   v032
+	BYTE	W07
+	BYTE		PAN     c_v-34
+	BYTE		N04     As4   v028
+	BYTE	W07
+	BYTE		PAN     c_v+43
+	BYTE		N04     As4   v020
+	BYTE	W48
+	BYTE	W03
+	BYTE		VOL     120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE		N01     As3   v096
+	BYTE	W03
+	BYTE		N04     As3   v092
+	BYTE	W07
+	BYTE		VOL     119*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-25
+	BYTE		VOL     118*ArenaMatch_mvl/mxv
+	BYTE		N03     As3   v052
+	BYTE	W01
+	BYTE		VOL     116*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        114*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        112*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        111*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        109*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        107*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        106*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+34
+	BYTE		VOL     105*ArenaMatch_mvl/mxv
+	BYTE		N03   
+	BYTE	W01
+	BYTE		VOL     103*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        101*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        99*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        97*ArenaMatch_mvl/mxv
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE		        95*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        93*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        92*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-34
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     90*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        88*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        86*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        84*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        82*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        80*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        79*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+43
+	BYTE		VOL     78*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     76*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        74*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        73*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        71*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        69*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        67*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        66*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-43
+	BYTE		VOL     65*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     63*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        61*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        59*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        57*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        55*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        54*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        53*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+49
+	BYTE		VOL     52*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     50*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        48*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        46*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        44*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        42*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        40*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        39*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-49
+	BYTE		VOL     38*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     36*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        33*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        31*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        29*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        27*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        25*ArenaMatch_mvl/mxv
+	BYTE	W13
+	BYTE		        120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-25
+	BYTE		N01     Cn4   v096
+	BYTE	W03
+	BYTE		N04     Cn4   v092
+	BYTE	W07
+	BYTE		VOL     119*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+25
+	BYTE		VOL     118*ArenaMatch_mvl/mxv
+	BYTE		N03     Cn4   v052
+	BYTE	W01
+	BYTE		VOL     116*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        115*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        113*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        111*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        109*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        107*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v-34
+	BYTE		VOL     106*ArenaMatch_mvl/mxv
+	BYTE		N03   
+	BYTE	W01
+	BYTE		VOL     104*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        102*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        100*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        98*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        97*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        95*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        94*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+34
+	BYTE		VOL     93*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     91*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        89*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        88*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        86*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        84*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        82*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        81*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-43
+	BYTE		VOL     80*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     79*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        77*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        75*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        73*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        71*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        70*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        69*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+43
+	BYTE		VOL     68*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     66*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        64*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        62*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        61*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        59*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        57*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        56*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v-49
+	BYTE		VOL     55*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		VOL     53*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        52*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        50*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        48*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        46*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        44*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		PAN     c_v+49
+	BYTE		VOL     43*ArenaMatch_mvl/mxv
+	BYTE		N02   
+	BYTE	W01
+	BYTE		VOL     41*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        39*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        37*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        35*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        34*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        32*ArenaMatch_mvl/mxv
+	BYTE	W01
+	BYTE		        30*ArenaMatch_mvl/mxv
+	BYTE	W13
+	BYTE		        120*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE		N02     Cn3   v080
+	BYTE	W03
+	BYTE		        Gn3   v072
+	BYTE	W03
+	BYTE		        Fs3   v068
+	BYTE	W03
+	BYTE		        Fn3   v072
+	BYTE	W03
+	BYTE		        As3   v084
+	BYTE	W03
+	BYTE		        An3   v072
+	BYTE	W03
+	BYTE		        Gs3   v068
+	BYTE	W03
+	BYTE		        Cs4   v076
+	BYTE	W03
+	BYTE		        Cn4   v080
+	BYTE	W03
+	BYTE		        Bn3   v092
+	BYTE	W03
+	BYTE		        En4   v072
+	BYTE	W03
+	BYTE		        Ds4 
+	BYTE	W03
+	BYTE		        Dn4 
+	BYTE	W03
+	BYTE		        Gn4   v084
+	BYTE	W03
+	BYTE		        Fs4   v068
+	BYTE	W03
+	BYTE		        Fn4   v072
+	BYTE	W03
+	BYTE		N01     As4   v064
+	BYTE	W02
+	BYTE		N06     As4   v104
+	BYTE	W08
+	BYTE		PAN     c_v-14
+	BYTE		N06     As4   v052
+	BYTE	W07
+	BYTE		PAN     c_v+25
+	BYTE		N05     As4   v044
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	ArenaMatch_2_B1
+ArenaMatch_2_B2:
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.6) ****************//
+
+ArenaMatch_3:
+	BYTE	KEYSH   ArenaMatch_key+0
+ArenaMatch_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     127*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     127*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		N02     Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v108
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v108
+	BYTE	W06
+	BYTE		        Gn2   v100
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v116
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v104
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v108
+	BYTE	W03
+	BYTE		        Fn2   v100
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v108
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v108
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v100
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v116
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v104
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v108
+	BYTE	W03
+	BYTE		        Fn2   v100
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v108
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v108
+	BYTE	W06
+	BYTE		        Gn2   v100
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v116
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v104
+	BYTE	W04
+// 002   ----------------------------------------
+	BYTE	W02
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v108
+	BYTE	W03
+	BYTE		        Fn2   v100
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v108
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v112
+	BYTE	W03
+	BYTE		        Fn2   v108
+	BYTE	W06
+	BYTE		        Gn2   v100
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v116
+	BYTE	W03
+	BYTE		        Fn2   v092
+	BYTE	W06
+	BYTE		N03     Gn2   v104
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W06
+	BYTE		N02     As2   v108
+	BYTE	W03
+	BYTE		        Fn2   v100
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W03
+	BYTE		        As2   v112
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	ArenaMatch_3_B1
+ArenaMatch_3_B2:
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.7) ****************//
+
+ArenaMatch_4:
+	BYTE	KEYSH   ArenaMatch_key+0
+ArenaMatch_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     127*ArenaMatch_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		        c_v+0
+	BYTE		N02     Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v092
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v104
+	BYTE	W06
+	BYTE		        Gn1   v100
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v096
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v100
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v116
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v092
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v104
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn1   v100
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v096
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v100
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v116
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v092
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v104
+	BYTE	W06
+	BYTE		        Gn1   v100
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W04
+// 002   ----------------------------------------
+	BYTE	W02
+	BYTE		        Gs1   v096
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v100
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v116
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v092
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v104
+	BYTE	W06
+	BYTE		        Gn1   v100
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v092
+	BYTE	W06
+	BYTE		N03     Gn1   v104
+	BYTE	W06
+	BYTE		        Gs1   v096
+	BYTE	W06
+	BYTE		N02     As1   v112
+	BYTE	W03
+	BYTE		        Fn1   v100
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W03
+	BYTE		        Gs1 
+	BYTE	W03
+	BYTE		        As1   v116
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	ArenaMatch_4_B1
+ArenaMatch_4_B2:
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+ArenaMatch:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	ArenaMatch_pri	// Priority
+	BYTE	ArenaMatch_rev	// Reverb.
+
+	POIN2	ArenaMatch_grp
+
+	POIN2	ArenaMatch_1
+	POIN2	ArenaMatch_2
+	POIN2	ArenaMatch_3
+	POIN2	ArenaMatch_4
+
+	

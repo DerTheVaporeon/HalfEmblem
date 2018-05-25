@@ -1,0 +1,98 @@
+# 0x26E MC_RText
+The young prince(ss?) of Aienaka.[NL]
+Has a gender identity crisis.[X]
+
+# 0x26F Xemnas_RText
+The loyal bodyguard of [Tact].[NL]
+Honest and dedicated to his duty.[NL]
+Maybe too honest.[X]
+
+# 0x270 Tatoh_RText
+A sturdy knight loyal to [Tact].[NL]
+Patience is his second name.[X]
+
+# 0x271 Alvin_RText
+One of [Tact]'s riders.[NL]
+Strong, but kind of a goof.[X]
+
+# 0x272 Vojtir_RText
+A wandering priest of Rev, [NL]
+traveling around the world on a mission.[NL]
+(A mission for what, though?)[X]
+
+# 0x273 Chen_RText
+One of [Tact]'s riders[NL]
+and Alvin's smarter sister.[NL]
+Pretty hasty.[X]
+
+# 0x274 John_RText
+An Aienakan archer.[NL]
+Rough to socialize with,[NL]
+but confident of his skills.[X]
+
+# 0x275 Ferro_RText
+A swordsman of Norask Coast.[NL]
+Proud of his strength and[NL]
+his country.[X]
+
+# 0x276 Raynor_RText
+A wandering pirate in search[NL]
+of treasures and adventure.[NL]
+A laid-back man.[X]
+
+# 0x277 Vriska_RText
+A prodigy girl with talent[NL]
+in wind magic. Wishes to[NL]
+protect the citizens of Darna.[X]
+
+# 0x278 Sawada_RText
+A dilligent, hard-working[NL]
+sellsword. He aspires to be[NL]
+the Ultimate Swordsman.[X]
+
+# 0x279 Mitch_RText
+A cunning treasure hunter[NL]
+who, too, works as a spy.[NL]
+Chivalrous yet goofy.[X]
+
+# 0x27a Kyria_RText
+The princess of Castle Darna.[NL]
+A girl with a cold attitude.[X]
+
+# 0x28b Dusk_RText
+A mysterious girl with the power[NL]
+to transform into any beast.[NL]
+A childhood friend of [Tact].[X]
+
+# 0x28E Althea_RText
+The princess of Castle Rev.[NL]
+Friendly and cheerful.[X]
+
+# 0x294 Follin_RText
+A veteran mercenary hired[NL]
+by the ruler of Baein[NL]
+to drive chaos.[X]
+
+# 0x295 Dagon_RText
+A soldier of Baein in charge[NL]
+of a looting party. His nose[NL]
+is as big as his ego.[X]
+
+# 0x296 Feld_RText
+A spearman at the service of[NL]
+Baein. Adjuntant of Luzardo.[X]
+
+# 0x297 Luzardo_RText
+A royal of Baein who laid[NL]
+siege upon Castle Darna.[NL]
+Proud of his Light Magic.[X]
+
+# 0x2a3 Shaquille_RText
+A soldier of Baein, hired[NL]
+to take over Castle Rev.[NL]
+Dislikes armors.[X]
+
+# 0x2ac Duskbree_RText
+[Tact]'s fiancee, who has been[NL] 
+forcibly warped into[NL]
+her beast form by Moncler.[X]
