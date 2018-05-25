@@ -1,0 +1,186 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+
+EventPointerTable(0x14,Chapter3)
+
+Chapter3:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 ALaCarga [3,0] 0x0
+TURN 0x0 Ponies [6,0] 0x0
+TURN 0x0 Horses [4,0] 0x0
+TURN 0x0 KKK [7,0] 0x0
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,Sopowo,Althea,Sawada)
+CharacterEventBothWays(0x8,Omaewamou,Ferro,Vriska)
+END_MAIN
+
+LocationBasedEvents:
+Seize(2,4)
+Village(0x9,BladeGet,8,2)
+Village(0xa,TorchyGet,10,10)
+House(0xb,House1,12,2)
+House(0xc,House2,3,11)
+SHOP 0x0 Armory [7,3] 0x16
+SHOP 0x0 Vendor [6,9] 0x17
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Alma EirikaLord 0x00 Level(5, Ally, 0) [17,8] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [17,6] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [18,7] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [18,9] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [17,10] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [16,9] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [15,8] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT
+
+EnemyUnits:
+UNIT Feld Soldier 0x00 Level(6, Enemy, 0) [2,4] 0x00 0x00 0x0 0x00 [Axereaver, Javelin] NeverMoveAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [10,10] 0x2 0x00 0x0 0x00 [SteelSword, Javelin, Vulnerary] GuardTileAI
+UNIT 0x80 Soldier Feld Level(4, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronLance, Javelin] AttackInRangeAI
+UNIT 0x80 Soldier Feld Level(4, Enemy, 1) [11,11] 0x2 0x00 0x0 0x00 [SteelLance, Antitoxin] AttackInRangeAI
+UNIT 0x80 Mage Feld Level(4, Enemy, 1) [9,11] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
+UNIT Vriska Mage_F Feld Level(4, Enemy, 0) [3,10] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
+UNIT 0x80 Mage Feld Level(4, Enemy, 1) [4,11] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT 0x80 Fighter Feld Level(4, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Fighter Feld Level(4, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [Hammer] AttackInRangeAI
+UNIT 0x80 Ranger Feld Level(1, Enemy, 0) [9,5] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [10,5] 0x2 0x00 0x0 0x00 [IronLance, Javelin] AttackInRangeAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [10,4] 0x0 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [10,6] 0x0 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x80 Brigand Feld Level(4, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [PoisonAxe] BrigandAI
+
+LosMirmidones:
+UNIT Sawada Myrmidon Feld Level(5, Enemy, 0) [2,5] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI
+UNIT 0x81 Myrmidon Feld Level(4, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT 0x81 Myrmidon Feld Level(4, Enemy, 1) [3,5] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x81 Myrmidon Feld Level(4, Enemy, 1) [2,6] 0x00 0x00 0x0 0x00 [PoisonSword] AttackInRangeAI
+UNIT
+
+ALIGN 4
+
+ALaCarga:
+Text(0x0,PlaceholderText)
+SVAL 0x1 0x0000
+CHAI Sawada
+SVAL 0x1 0x0000
+CHAI 0x81
+ENDA
+	
+Ponies:
+ReinforcementEvent(Pegasiforcements)
+ENDA	
+
+Pegasiforcements:
+UNIT 0x80 PegasusKnight Feld Level(4, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 PegasusKnight Feld Level(4, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 PegasusKnight Feld Level(4, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT
+
+Horses:
+ReinforcementEvent(Cavforcement)
+ENDA
+
+Cavforcement:
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [SteelSword, Javelin] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Feld Level(4, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT
+
+KKK:
+ReinforcementEvent(KillerKreepyKnoms)
+ENDA
+
+KillerKreepyKnoms:
+UNIT 0x80 Monk Feld Level(4, Enemy, 1) [4,12] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI
+UNIT 0x80 Monk Feld Level(4, Enemy, 1) [5,12] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI
+UNIT 0x80 Monk Feld Level(4, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI
+UNIT
+
+Sopowo:
+Text(RecruitText)
+CUSA Sawada
+NoFade
+ENDA
+
+Omaewamou:
+Text(RecruitText)
+CUSA Vriska
+NoFade
+ENDA
+
+ALIGN 4
+
+BladeGet:
+VillageEventItem(Village_Text, 0x0, IronBlade)
+
+TorchyGet:
+VillageEventItem(Village_Text, 0x0, TorchStaff)
+
+House1:
+Text(0x0,House_Text)
+ENDA
+
+House2:
+Text(0x0,House_Text)
+ENDA
+
+ALIGN 4
+
+Armory:
+SHLI IronSword SlimSword SteelSword IronLance SlimLance SteelLance Javelin IronAxe SteelAxe HandAxe IronBow SteelBow
+
+Vendor:
+SHLI Fire Heal Antitoxin DoorKey ChestKey Vulnerary
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD1 0x1 LosMirmidones
+ENUN
+GotoPrepScreen
+ENDA
+
+ALIGN 4
+
+EndingScene:
+MNC2 0x4
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

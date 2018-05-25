@@ -1,0 +1,9 @@
+//It must be a palette animation.Only the first image is used, and only the palette is used for subsequent images.
+//This animation has a fixed number of frames.The maximum number of frames must be 0x07 (7).
+1 romanime_0103_efxEckesachsBG_g000.png
+1 romanime_0103_efxEckesachsBG_g001.png
+1 romanime_0103_efxEckesachsBG_g002.png
+1 romanime_0103_efxEckesachsBG_g003.png
+1 romanime_0103_efxEckesachsBG_g004.png
+1 romanime_0103_efxEckesachsBG_g005.png
+1 romanime_0103_efxEckesachsBG_g006.png

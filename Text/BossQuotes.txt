@@ -1,0 +1,36 @@
+# 0x916
+[OpenMidLeft][LoadFace][0x30][0x1]
+What?! All of my men[NL]
+are down already?![A][NL]
+Argh... I guess it's up to[NL]
+me to kill you, then![A][X]
+
+# 0x935
+[OpenMidLeft][LoadFace][0x31][0x1]
+Harr... You've done well[NL]
+in going throught my men![A][NL]
+Do you think ye' have 'dem[NL]
+guts to endure my attacks?[A][X]
+
+# 0x960
+[OpenMidLeft][LoadFace][0x32][0x1]
+So, you've arrived,[NL]
+filthy Aienakans![A][NL]
+We've looted this whole[NL]
+place already![ANL][ToggleSmile]
+What will you do about[NL]
+it, huh? Ha ha ha![A][X]
+
+# 0x993
+[OpenMidLeft][LoadFace][0x33][0x1]
+A-Ah! W-Who's there![NL]
+[ToggleMouthMove]...[ToggleMouthMove] It's you![A][NL]
+None of you shall cross[NL]
+into my master's halls![A][X]
+
+# 0x9c7
+[OpenMidLeft][LoadFace][0x34][0x1]
+Foolish Aienakans! You wish[NL]
+to strip me of my crown?[A][NL]
+Then, prepare to fear the[NL]
+wrath of god's Divine![A][X]

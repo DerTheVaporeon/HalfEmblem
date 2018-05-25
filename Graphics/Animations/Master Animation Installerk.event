@@ -1,0 +1,146 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
+#define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
+#define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
+#define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+
+//////////////Installed animations go here:
+
+//#include "my animation Installer.event"
+
+//Eirika Repalette by Teraspark
+{
+#include "Lords/Eirika Lord Recolor/Eirika Lord Sword Installer.event"
+}
+{
+#include "Lords/Eirika Lord Recolor/Eirika Lord Disarmed Installer.event"
+}
+//RD-Style Fighter by MageKnight404
+//{
+//#include "Axes/FE10Fighter/NewFighter Installer.event"
+//}
+//{
+//#include "Axes/FE10Fighter/NewFighterHandAxe Installer.event"
+//}
+//{
+//#include "Axes/FE10Fighter/NewFighterDisarmed Installer.event"
+//}
+//Pirate Repalette and Smoothing by Eliwan
+{
+#include "Axes/Pirate_Update/A_PirUp Installer.event"
+}
+{
+#include "Axes/Pirate_Update/Male_HAxe Installer.event"
+}
+{
+#include "Axes/Pirate_Update/M_DS_v Installer.event"
+}
+//New Knife Thief by GabrielKnight(?)
+{
+#include "Swords/NewThief/thim_sw1 Installer.event"
+}
+//New Soldier by Alusq
+{
+#include "Lances/NewSoldier/SoldierLance Installer.event"
+}
+{
+#include "Lances/NewSoldier/SoldierUnr Installer.event"
+}
+//Monk repalette + Staves by Teraspark
+{
+#include "Magic/Monk/Magic Installer.event"
+}
+{
+#include "Magic/Priest/Staff Installer.event"
+}
+//Female Mercenary (TheBlindArcher and Dei)
+{
+#include "Swords/MercenaryF/Sword/Sword Installer.event"
+}
+{
+#include "Swords/MercenaryF/Disarmed/Disarmed Installer.event"
+}
+//Halberdier (TheBlindArcher)
+{
+#include "Lances/Halberdier/Lance/HalbLance Installer.event"
+}
+{
+#include "Lances/Halberdier/Disarmed/HalbDisarm Installer.event"
+}
+//SALVAGED CAVALIERS BY TEAM SALVAGED
+//{
+//#include "Mounts/SalvCavs/Cavalier Sword Installer.event"
+//}
+//{
+//#include "Mounts/SalvCavs/Cavalier Lance Installer.event"
+//}
+//{
+//#include "Mounts/SalvCavs/Cavalier Unarmed Installer.event"
+//}
+
+SalvCavAnim:
+SwordAnim(0x34)
+SpearAnim(0x35)
+UnarmedAnim(0x36)
+WORD 0x0    // Seperator
+
+LordrikaAnim:
+SwordAnim(0x3)
+UnarmedAnim(0x4)
+WORD 0x0    // Seperator
+
+MonkAnim:
+AnimaAnim(0x7d)
+LightAnim(0x7d)
+DarkAnim(0x7d)
+UnarmedAnim(0x7d)
+WORD 0x0    // Seperator
+
+SoldierAnim:
+SpearAnim(0x98)
+UnarmedAnim(0x99)
+WORD 0x0    // Seperator
+
+PriestAnim:
+StaffAnim(0x7f)
+UnarmedAnim(0x7d)
+WORD 0x0    // Seperator
+
+ThiefAnim:
+SwordAnim(0x89)
+WORD 0x0    // Seperator
+
+//NewFighterAnim:
+//AxeAnim(0x19)
+//HandAxeAnim(0x1a)
+//UnarmedAnim(0x1b)
+//WORD 0x0    // Seperator
+
+NewPirateAnim:
+AxeAnim(0x9a)
+HandAxeAnim(0x9b)
+UnarmedAnim(0x9c)
+WORD 0x0    // Seperator
+
+FemercAnim:
+SwordAnim(0xcd)
+UnarmedAnim(0xce)
+WORD 0x0    // Seperator
+
+HalberdAnim:
+SpearAnim(0xcf)
+UnarmedAnim(0xd0)
+WORD 0x0    // Seperator

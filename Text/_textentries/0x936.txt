@@ -1,0 +1,2 @@
+[OpenMidLeft][LoadFace][0x31][0x1]
+Hyaaargh[ToggleMouthMove]...[ToggleMouthMove]!![A][X]

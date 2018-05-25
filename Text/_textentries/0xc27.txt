@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0x5][0x1]
+Urgh[ToggleMouthMove]...[ToggleMouthMove] why now?[NL]
+Lord [Tact][ToggleMouthMove]...[ToggleMouthMove][A][X]

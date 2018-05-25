@@ -1,0 +1,56 @@
+# 0x213 Xemnas_Name
+Xemnas[X]
+
+# 0x214 Tatoh_Name
+Tatoh[X]
+
+# 0x215 Alvin_Name
+Alvin[X]
+
+# 0x216 Vojtir_Name
+Vojtir[X]
+
+# 0x217 Chen_Name
+Chen[X]
+
+# 0x218 John_Name
+John[X]
+
+# 0x219 Ferro_Name
+Ferro[X]
+
+# 0x21a Raynor_Name
+Raynor[X]
+
+# 0x21b Vriska_Name
+Vriska[X]
+
+# 0x21c Sawada_Name
+Sawada[X]
+
+# 0x21d Mitch_Name
+Mitch[X]
+
+# 0x21e Kyria_Name
+Kyria[X]
+
+# 0x230 Dusk_Name
+Dusk[X]
+
+# 0x233 Althea_Name
+Althea[X]
+
+# 0x239 Follin_Name
+Follin[X]
+
+# 0x23a Dagon_Name
+Dagon[X]
+
+# 0x23b Feld_Name
+Feld[X]
+
+# 0x23c Luzardo_Name
+Luzardo[X]
+
+# 0x249 Shaquille_Name
+Shaquille[X]

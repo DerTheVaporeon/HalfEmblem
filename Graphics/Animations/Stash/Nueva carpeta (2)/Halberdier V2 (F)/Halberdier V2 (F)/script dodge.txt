@@ -1,0 +1,99 @@
+//begin Mode 1
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 2
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 3
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 4
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 5
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 6
+C03
+C07
+7  p- frame000.png
+C05
+C01
+7  p- frame001.png
+C06
+C0D
+~~~
+//begin Mode 7
+C02
+4  p- frame000.png
+4  p- frame001.png
+C0E
+20  p- frame002.png
+4  p- frame003.png
+4  p- frame004.png
+C01
+C0D
+~~~
+//begin Mode 8
+C02
+4  p- frame000.png
+4  p- frame001.png
+C0E
+20  p- frame002.png
+4  p- frame003.png
+4  p- frame004.png
+C01
+C0D
+~~~
+//begin Mode 9
+3  p- frame000.png
+C01
+~~~
+//begin Mode 10
+3  p- frame000.png
+C01
+~~~
+//begin Mode 11
+3  p- frame000.png
+C01
+~~~
+//begin Mode 12
+3  p- frame000.png
+C01
+~~~
+//End of animation script

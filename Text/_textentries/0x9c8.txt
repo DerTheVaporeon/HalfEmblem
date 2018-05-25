@@ -1,0 +1,4 @@
+[OpenMidLeft][LoadFace][0x34][0x1]
+H-Has god truly[ToggleMouthMove]...[ToggleMouthMove] judged[NL]
+me[ToggleMouthMove]...?[ToggleMouthMove] I did[ToggleMouthMove]...[ToggleMouthMove][ANL]
+So much[ToggleMouthMove]...[ToggleMouthMove] For the crown[ToggleMouthMove]...[ToggleMouthMove][A][X]

@@ -1,0 +1,3 @@
+[OpenMidLeft][LoadFace][0x30][0x1]
+No[ToggleMouthMove]...[ToggleMouthMove]! It can't be[ToggleMouthMove]...[ToggleMouthMove][NL]
+I have been defeated[ToggleMouthMove]...![ToggleMouthMove][A][X]

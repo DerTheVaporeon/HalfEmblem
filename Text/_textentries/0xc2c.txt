@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0xc][0x1]
+Argh[ToggleMouthMove]...[ToggleMouthMove] This is[NL]
+where my tale ends[ToggleMouthMove]...[ToggleMouthMove] isn't it?[CloseEyes][A][X]

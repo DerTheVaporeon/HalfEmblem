@@ -1,0 +1,139 @@
+﻿EventPointerTable(0x7,Chapter0)
+
+ALIGN 4
+
+Chapter0:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+TurnBasedEvents:
+TURN 0x0 ThiefReinfor1 [1,0] 0x8
+TURN 0x0 ThiefReinfor2 [3,0] 0x0
+TURN 0x0 SoldierReinfors [5,0] 0x0
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(4,5)
+Village(0x7,BoulderVillage,13,10)
+END_MAIN
+
+ALIGN 4
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Alma EirikaLord 0x00 Level(1, Ally, 0) [16,2] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI
+UNIT Xemnas GreatKnight Alma Level(1, Ally, 0) [17,3] 0x00 0x00 0x0 0x00 [SteelSword, SilverAxe, Vulnerary] NoAI
+UNIT Chen Cavalier_F Alma Level(1, Ally, 0) [16,4] 0x00 0x00 0x0 0x00 [IronSword, Javelin] NoAI
+UNIT Alvin Cavalier Alma Level(1, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [SteelSword, IronLance] NoAI
+UNIT Tatoh Knight Alma Level(3, Ally, 0) [17,5] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Althea PegasusKnight Alma Level(1, Ally, 0) [14,2] 0x00 0x00 0x0 0x00 [SlimLance, Javelin] NoAI
+UNIT John Archer Alma Level(1, Ally, 0) [18,5] 0x00 0x00 0x0 0x00 [IronBow, ShortBow] NoAI
+UNIT 
+
+EnemyUnits:
+UNIT Shaquille Fighter 0x00 Level(3, Enemy, 0) [4,5] 0x00 0x00 0x0 0x00 [SteelAxe] NeverMoveAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Hatchet] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [3,11] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT 0x80 Archer Shaquille Level(1, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [IronBow] ChaseOnceApproachedAI
+UNIT 0x80 Archer Shaquille Level(1, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Soldier Shaquille Level(1, Enemy, 1) [7,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Shaquille Level(1, Enemy, 1) [8,13] 0x02 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Soldier Shaquille Level(1, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Archer Shaquille Level(1, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [IronBow] ChaseOnceApproachedAI
+UNIT 0x80 Archer Shaquille Level(1, Enemy, 1) [6,4] 0x00 0x00 0x0 0x00 [IronBow] ChaseOnceApproachedAI
+UNIT 0x80 Fighter Shaquille Level(2, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI
+UNIT
+
+BoulderVillage:
+Text(0x0,RecruitText)
+LOAD1 0x1 BoulderGet
+ENDA
+
+BoulderGet:
+UNIT Vojtir Priest Alma Level(1, Ally, 0) [13,10] 0x00 0x00 0x1 REDA_Boulder [Heal, Vulnerary] NoAI
+UNIT
+
+REDA_Boulder:
+	REDA [13,11] 0 0 0 0
+
+ALIGN 4	
+ThiefReinfor1:
+ReinforcementEvent(EnemyReinforcements1)
+ENDA
+
+EnemyReinforcements1:
+UNIT 0x80 Thief Shaquille Level(1, Enemy, 1) [6,9] 0x00 0x00 0x0 0x00 [IronSword] BrigandAI
+UNIT
+
+ThiefReinfor2:
+ReinforcementEvent(EnemyReinforcements2)
+ENDA
+
+EnemyReinforcements2:
+UNIT 0x80 Brigand Shaquille Level(1, Enemy, 1) [6,9] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT
+
+SoldierReinfors:
+ReinforcementEvent(EnemyReinforcements3)
+ENDA
+
+EnemyReinforcements3:
+UNIT 0x80 Soldier Shaquille Level(1, Enemy, 1) [10,13] 0x00 0x00 0x1 REDA_FromFort1 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Soldier Shaquille Level(1, Enemy, 1) [10,13] 0x02 0x00 0x1 REDA_FromFort2 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Fighter Shaquille Level(1, Enemy, 1) [10,13] 0x00 0x00 0x1 REDA_FromFort3 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+REDA_FromFort1:
+	REDA [10,12] 0 0 0 0
+REDA_FromFort2:
+	REDA [9,13] 0 0 0 0
+REDA_FromFort3:
+	REDA [11,13] 0 0 0 0
+	
+BeginningScene:
+LOAD1 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+ConvoEvent(PlaceholderText)
+REMA
+ENDA
+	
+EndingScene:
+SVAL 3 5000
+GIVEITEMTOMAIN 0
+MNC2 0x1
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

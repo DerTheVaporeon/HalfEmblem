@@ -1,0 +1,42 @@
+#define FreeSpace 0xb2a610
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTable
+    #define DebuffTable 0x203F100
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+#include "Engine Hacks/Skill System/skill_definitions.event"
+
+#define Alma 1
+#define Xemnas 2
+#define Tatoh 3
+#define Alvin 4
+#define Vojtir 5
+#define Chen 6
+#define John 7
+#define Ferro 8
+#define Raynor 9
+#define Vriska 10
+#define Sawada 11
+#define Mitch 12
+#define Kyria 13
+#define Althea 34
+
+#define Shaquille 104
+#define Follin 70
+#define Dagon 71
+#define Feld 72
+#define Luzardo 74
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+#endif

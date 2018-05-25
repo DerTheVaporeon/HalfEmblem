@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0xe][0x1]
+I-I don't want to die[ToggleMouthMove]...[ToggleMouthMove][NL]
+Not[CloseEyes][ToggleMouthMove]...[ToggleMouthMove] yet[ToggleMouthMove]...[ToggleMouthMove][A][X]

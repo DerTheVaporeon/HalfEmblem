@@ -1,0 +1,77 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+    #include "Custom Definitions.event"
+
+    ORG FreeSpace
+	
+	#define TextTable 0xEF3000 //This is where you want the new table to be located at
+	PUSH 
+	ORG TextTable
+	#incbin "Text/OGTextTable.bin" //The file we made earlier
+	ORG $a2a0 //This is where the pointer to the text table is
+	POIN TextTable //The new pointer
+	POP
+	MESSAGE Text table located at TextTable
+	
+    //Text first for Text ID definitions
+	#include "Text/TacticianName.event"
+	#include "Text/Install Text Data.event"
+	
+    MESSAGE Used text space ends at currentOffset
+
+	ALIGN 4
+	
+	#include "Graphics/Animations/Master Animation Installerk.event"
+	
+    //CSV tables
+		//Undefine class table
+		//#undef ClassTable
+		#include "Tables/Table Installer.event"
+		MESSAGE Used table space ends at currentOffset
+		//Redefine it as our new expanded one
+		//#inctext PFinder HalfEmblem.gba 0x807110 ClassTable
+		
+	ALIGN 4
+
+	//Graphics
+	#include "Graphics/Mugs/Mug Installer.event"
+	#include "Graphics/FE6 Snow Installer.event"
+	#include "Graphics/Map Sprite Installer.event"
+	#include "Graphics/Palettes/Palette Setup.event"
+	#include "Graphics/Spells/Master Spell Animation Installer.event"
+	MESSAGE Used graphics space ends at currentOffset
+
+	ALIGN 4	
+	
+    //Engine Hacks
+    #include "Engine Hacks/_MasterHackInstaller.event"
+    MESSAGE Used hax space ends at currentOffset
+		
+	//Music
+	#include "Music/Music Installer.event"
+	MESSAGE Used music space ends at currentOffset
+	
+	ALIGN 4
+
+	//Events
+
+	PUSH
+		ORG $44800
+		BYTE 9 //max name length
+		ORG $482bA
+		BYTE 9 //max cursor position
+	POP
+
+	#include "Events/Master Events Installer.event"
+	#include "Events/World Map Events Installer.event"
+	MESSAGE Used event space ends at currentOffset
+	
+	//Maps
+	#include "Maps/Master Map Installer.event"
+	MESSAGE Used map space ends at currentOffset
+    
+    MESSAGE Used free space ends at currentOffset
+    MESSAGE Proc_Counter
+#else
+    ERROR You are not assembling FE8 events!
+#endif

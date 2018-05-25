@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0x8][0x1]
+No[ToggleMouthMove]...[ToggleMouthMove] I don't want to[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+[CloseEyes][Tact][ToggleMouthMove]...[ToggleMouthMove] I[ToggleMouthMove]...[ToggleMouthMove][A][X]

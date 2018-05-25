@@ -1,0 +1,7 @@
+[OpenMidLeft][LoadFace][0x32][0x1]
+So, you've arrived,[NL]
+filthy Aienakans![A][NL]
+We've looted this whole[NL]
+place already![ANL][ToggleSmile]
+What will you do about[NL]
+it, huh? Ha ha ha![A][X]

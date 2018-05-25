@@ -1,0 +1,8 @@
+#define TextTable 0xEF3000 //This is where you want the new table to be located at
+PUSH 
+ORG TextTable
+#incbin "OGTextTable.bin" //The file we made earlier
+ORG $a2a0 //This is where the pointer to the text table is
+POIN TextTable //The new pointer
+POP
+MESSAGE Text table located at TextTable

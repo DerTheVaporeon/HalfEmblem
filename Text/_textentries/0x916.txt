@@ -1,0 +1,5 @@
+[OpenMidLeft][LoadFace][0x30][0x1]
+What?! All of my men[NL]
+are down already?![A][NL]
+Argh... I guess it's up to[NL]
+me to kill you, then![A][X]

@@ -1,0 +1,55 @@
+#include "drumfix_fe8.event"
+
+PUSH
+ORG 0x1001860
+#incbin "bin/custom_piano.bin"
+POP
+
+voicegroup000:
+#incbin "FE8_NI_Map_custompiano.bin"
+
+//Example song
+//SongTable(99,My_song,MapMusicGroup)
+//#include "My_song.event"
+
+SongTable(0x3,FonRosso,1)
+#include "FonRosso.event"
+
+SongTable(0x4,Rojenski,1)
+#include "Rojenski.event"
+
+SongTable(0x9,Alm_Phase,1)
+#include "Alm_Phase.event"
+
+SongTable(0x13,Enemy_Phase_1_Alm,1)
+#include "Enemy_Phase_1_Alm.event"
+
+SongTable(0xF,FE6_Binding_Ties,1)
+#include "FE6_Binding_Ties.event"
+
+SongTable(0x22,Elphin,0)
+#include "Elphin.event"
+
+SongTable(0x10,FE5_NearVictory,1)
+#include "FE5_NearVictory.event"
+
+SongTable(0x19,FE5_Attack,0)
+#include "FE5_Attack.event"
+
+SongTable(0x1A,FE5_Defend,0)
+#include "FE5_Defend.event"
+
+SongTable(0x1B,FE4_Attack,0)
+#include "FE4_Attack.event"
+
+SongTable(0x1,RivieraMiniboss,0)
+#include "Test/RivieraMiniboss.event"
+
+SongTable(0x30,JoinUs,0)
+#include "JoinUs.event"
+
+SongTable(0x39,ArenaMatch,0)
+#include "ArenaMatch.event"
+
+SongTable(0x57,FE4_MiniBoss,0)
+#include "FE4_MiniBoss.event"

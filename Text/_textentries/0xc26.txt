@@ -1,0 +1,3 @@
+[OpenMidRight][LoadFace][0x6][0x1]
+G-Guh[ToggleMouthMove]...![ToggleMouthMove] I can't...[NL]
+[Tact], please[ToggleMouthMove]live on...[ToggleMouthMove][A][X]

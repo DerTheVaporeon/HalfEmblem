@@ -1,0 +1,23 @@
+NewSoldierSt:
+#incext Png2Dmp "Map Animations/soldier-map-stand.png" --lz77
+ALIGN 4
+
+NewSoldierMv:
+#incext Png2Dmp "Map Animations/soldier-map-move.png" --lz77
+ALIGN 4
+
+//FE10FighterSt:
+//#incext Png2Dmp "Map Animations/Fighterstand.png" --lz77
+//ALIGN 4
+
+//FE10FighterMv:
+//#incext Png2Dmp "Map Animations/Fighter.png" --lz77
+//ALIGN 4
+
+LanceCavSt:
+#incext Png2Dmp "Map Animations/LanceKnightStand.png" --lz77
+ALIGN 4
+
+LanceCavMv:
+#incext Png2Dmp "Map Animations/LanceKnightMoving.png" --lz77
+ALIGN 4

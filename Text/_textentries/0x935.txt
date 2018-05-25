@@ -1,0 +1,5 @@
+[OpenMidLeft][LoadFace][0x31][0x1]
+Harr... You've done well[NL]
+in going throught my men![A][NL]
+Do you think ye' have 'dem[NL]
+guts to endure my attacks?[A][X]

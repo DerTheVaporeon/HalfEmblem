@@ -1,0 +1,1026 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Guerrilla4_grp  voicegroup000
+	#define	Guerrilla4_pri  0
+	#define	Guerrilla4_rev  0
+	#define	Guerrilla4_mvl  127
+	#define	Guerrilla4_key  0
+	#define	Guerrilla4_tbs  1
+	#define	Guerrilla4_exg  0
+	#define	Guerrilla4_cmp  1
+
+	// .rodata
+	//	Guerrilla4
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Guerrilla4_1:
+	BYTE	KEYSH   Guerrilla4_key+0
+Guerrilla4_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   151*Guerrilla4_tbs/2
+	BYTE		VOICE   36
+	BYTE		VOL     63*Guerrilla4_mvl/mxv
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		N06     Cs3 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+// 001   ----------------------------------------
+Guerrilla4_1_001:
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		N06     Cs3 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Guerrilla4_1_002:
+	BYTE		N12     Gs3   v100
+	BYTE	W12
+	BYTE		N06     Bn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Guerrilla4_1_003:
+	BYTE		N12     Gs3   v100
+	BYTE	W12
+	BYTE		N06     Bn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Gs3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Guerrilla4_1_004:
+	BYTE		N12     As3   v100
+	BYTE	W12
+	BYTE		N06     Cs3 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_003
+// 008   ----------------------------------------
+Guerrilla4_1_008:
+	BYTE		N17     Cs4   v100
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_008
+// 010   ----------------------------------------
+Guerrilla4_1_010:
+	BYTE		N06     As4   v100
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_010
+// 012   ----------------------------------------
+Guerrilla4_1_012:
+	BYTE		N17     As4   v100
+	BYTE	W18
+	BYTE		N06     Cs5 
+	BYTE	W06
+	BYTE		N17     As4 
+	BYTE	W18
+	BYTE		N06     Cs5 
+	BYTE	W06
+	BYTE		        As4 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+	BYTE		        Cs5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        Cs5 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_012
+// 014   ----------------------------------------
+Guerrilla4_1_014:
+	BYTE		N06     Gn5   v100
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        Cs5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Gn5 
+	BYTE	W06
+	BYTE		        Fn5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        Cs5 
+	BYTE	W06
+	BYTE		        Dn5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_014
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_002
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_008
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_010
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_010
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_012
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_012
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_014
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_1_014
+	BYTE	GoTo
+	 POIN2	Guerrilla4_1_B1
+Guerrilla4_1_B2:
+// 032   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Guerrilla4_2:
+	BYTE	KEYSH   Guerrilla4_key+0
+Guerrilla4_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   62
+	BYTE		VOL     63*Guerrilla4_mvl/mxv
+	BYTE		N12     En3   v100
+	BYTE	W12
+	BYTE		N06     Gn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+// 001   ----------------------------------------
+Guerrilla4_2_001:
+	BYTE		N12     En3   v100
+	BYTE	W12
+	BYTE		N06     Gn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Fn3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Guerrilla4_2_002:
+	BYTE		N12     Dn3   v100
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     En3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Guerrilla4_2_003:
+	BYTE		N12     Dn3   v100
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Guerrilla4_2_004:
+	BYTE		N12     En3   v100
+	BYTE	W12
+	BYTE		N06     Gn2 
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_003
+// 008   ----------------------------------------
+Guerrilla4_2_008:
+	BYTE		N17     As3   v100
+	BYTE	W18
+	BYTE		N06     Cs4 
+	BYTE	W06
+	BYTE		N17     As3 
+	BYTE	W18
+	BYTE		N06     Cs4 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 012   ----------------------------------------
+Guerrilla4_2_012:
+	BYTE		N17     Cs4   v100
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE		N06     En4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_002
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_008
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_2_012
+	BYTE	GoTo
+	 POIN2	Guerrilla4_2_B1
+Guerrilla4_2_B2:
+// 032   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Guerrilla4_3:
+	BYTE	KEYSH   Guerrilla4_key+0
+Guerrilla4_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		VOL     63*Guerrilla4_mvl/mxv
+	BYTE		N06     Fs1   v100
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+// 001   ----------------------------------------
+Guerrilla4_3_001:
+	BYTE		N06     Fs1   v100
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Guerrilla4_3_002:
+	BYTE		N06     En1   v100
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Guerrilla4_3_003:
+	BYTE		N06     En1   v100
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Guerrilla4_3_004:
+	BYTE		N06     Fs1   v100
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_003
+// 008   ----------------------------------------
+Guerrilla4_3_008:
+	BYTE		N06     Bn0   v100
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cs1 
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cs1 
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cs1 
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Bn0 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Cs1 
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_002
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_3_008
+	BYTE	GoTo
+	 POIN2	Guerrilla4_3_B1
+Guerrilla4_3_B2:
+// 032   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Guerrilla4_4:
+	BYTE	KEYSH   Guerrilla4_key+0
+Guerrilla4_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     63*Guerrilla4_mvl/mxv
+	BYTE		N12     Bn0   v100
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N06     Dn1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Bn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+// 001   ----------------------------------------
+Guerrilla4_4_001:
+	BYTE		N12     Bn0   v100
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Bn0 
+	BYTE	W12
+	BYTE		N06     Dn1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Bn0 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 008   ----------------------------------------
+Guerrilla4_4_008:
+	BYTE		N12     Dn1   v100
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 014   ----------------------------------------
+Guerrilla4_4_014:
+	BYTE		N06     En1   v100
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_014
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_008
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_014
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Guerrilla4_4_014
+	BYTE	GoTo
+	 POIN2	Guerrilla4_4_B1
+Guerrilla4_4_B2:
+// 032   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Guerrilla4:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Guerrilla4_pri	// Priority
+	BYTE	Guerrilla4_rev	// Reverb.
+
+	POIN2	Guerrilla4_grp
+
+	POIN2	Guerrilla4_1
+	POIN2	Guerrilla4_2
+	POIN2	Guerrilla4_3
+	POIN2	Guerrilla4_4
+
+	
