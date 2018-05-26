@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 #define csvmacro029(arg000) "BYTE arg000 "
 
 PUSH
 ORG 0x178ea
 csvmacro029(0x50)
+=======
+#define csvmacro032(arg000) "BYTE arg000 "
+
+PUSH
+ORG 0x178ea
+csvmacro032(0x50)
+>>>>>>> master
 POP

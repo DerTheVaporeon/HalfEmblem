@@ -1,6 +1,10 @@
 #define csvmacro000(arg000) "BYTE arg000 "
 
+<<<<<<< HEAD
 #inctext PFinder "D:\FE8 Project\HalfEmblem\FE8_clean.gba" 0xe47180 ClassSkillTable
+=======
+#inctext PFinder "D:\FE8 Project\SkillSystem_FE8-master\FE8_clean.gba" 0xe47180 ClassSkillTable
+>>>>>>> master
 
 ALIGN 4
 ClassSkillTable:

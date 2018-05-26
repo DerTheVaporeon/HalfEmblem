@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #define csvmacro044(arg000,arg001) "BYTE arg000 arg001 "
 
 PUSH
@@ -5,4 +6,13 @@ ORG 0x95f5a4
 csvmacro044(0x18,0x3f)
 csvmacro044(0x1f,0x3e)
 csvmacro044(0x23,0x3b)
+=======
+#define csvmacro047(arg000,arg001) "BYTE arg000 arg001 "
+
+PUSH
+ORG 0x95f5a4
+csvmacro047(0x18,0x3f)
+csvmacro047(0x1f,0x3e)
+csvmacro047(0x23,0x3b)
+>>>>>>> master
 POP

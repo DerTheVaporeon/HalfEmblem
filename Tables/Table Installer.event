@@ -12,6 +12,15 @@
 
 #include "FE8 Nightmare modules\FE8 Skill Description Editor.event"
 
+<<<<<<< HEAD
+=======
+#include "FE8 Nightmare modules\Animation\Battle Animation Editor.event"
+
+#include "FE8 Nightmare modules\Animation\Custom Battle Animation Editor.event"
+
+#include "FE8 Nightmare modules\Animation\FE8 Battle Palette Reference.event"
+
+>>>>>>> master
 #include "FE8 Nightmare modules\Boss editors\Boss music editor.event"
 
 #include "FE8 Nightmare modules\CG Editor\FE8 CG Table Editor.event"

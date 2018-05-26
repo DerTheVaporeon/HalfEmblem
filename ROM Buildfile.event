@@ -18,6 +18,13 @@
 	#include "Text/Install Text Data.event"
 	
     MESSAGE Used text space ends at currentOffset
+<<<<<<< HEAD
+=======
+
+	ALIGN 4
+	
+	#include "Graphics/Animations/Master Animation Installerk.event"
+>>>>>>> master
 	
     //CSV tables
 		//Undefine class table
@@ -26,6 +33,19 @@
 		MESSAGE Used table space ends at currentOffset
 		//Redefine it as our new expanded one
 		//#inctext PFinder HalfEmblem.gba 0x807110 ClassTable
+<<<<<<< HEAD
+=======
+		
+	ALIGN 4
+
+	//Graphics
+	#include "Graphics/Mugs/Mug Installer.event"
+	#include "Graphics/FE6 Snow Installer.event"
+	#include "Graphics/Map Sprite Installer.event"
+	#include "Graphics/Palettes/Palette Setup.event"
+	#include "Graphics/Spells/Master Spell Animation Installer.event"
+	MESSAGE Used graphics space ends at currentOffset
+>>>>>>> master
 
 	ALIGN 4	
 	
@@ -55,6 +75,7 @@
 	//Maps
 	#include "Maps/Master Map Installer.event"
 	MESSAGE Used map space ends at currentOffset
+<<<<<<< HEAD
     		
 	ALIGN 4
 	
@@ -72,6 +93,9 @@
 	//Palettes
 	#include "Graphics/Palettes/Palette Setup.event"
 	
+=======
+    
+>>>>>>> master
     MESSAGE Used free space ends at currentOffset
     MESSAGE Proc_Counter
 #else
