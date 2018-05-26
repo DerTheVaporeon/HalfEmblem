@@ -35,11 +35,3 @@ EventPointerTable(0xe0, FieldsSunsetPalette)
 EventPointerTable(0xe1, FieldsNightPalette)
 EventPointerTable(0xea, SnowFieldsPalette)
 EventPointerTable(0xeb, FortNightPalette)
-
-PUSH
-ORG $88620
-POIN RemoveGlowy
-POP
-
-RemoveGlowy:
-#incext Png2Dmp "RemoveGlowy.png" --lz77

@@ -1,7 +1,3 @@
-#ifndef ClassAnimTable
-  #ifdef _FE8_
-    #define ClassAnimTable (0xc00008-0x20)
-  #endif
 
 #define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
 
@@ -28,16 +24,6 @@
 {
 #include "Lords/Eirika Lord Recolor/Eirika Lord Disarmed Installer.event"
 }
-//RD-Style Fighter by MageKnight404
-//{
-//#include "Axes/FE10Fighter/NewFighter Installer.event"
-//}
-//{
-//#include "Axes/FE10Fighter/NewFighterHandAxe Installer.event"
-//}
-//{
-//#include "Axes/FE10Fighter/NewFighterDisarmed Installer.event"
-//}
 //Pirate Repalette and Smoothing by Eliwan
 {
 #include "Axes/Pirate_Update/A_PirUp Installer.event"
@@ -81,15 +67,26 @@
 #include "Lances/Halberdier/Disarmed/HalbDisarm Installer.event"
 }
 //SALVAGED CAVALIERS BY TEAM SALVAGED
-//{
-//#include "Mounts/SalvCavs/Cavalier Sword Installer.event"
-//}
-//{
-//#include "Mounts/SalvCavs/Cavalier Lance Installer.event"
-//}
-//{
-//#include "Mounts/SalvCavs/Cavalier Unarmed Installer.event"
-//}
+{
+#include "Mounts/SalvCavs/axecav Installer.event"
+}
+{
+#include "Mounts/SalvCavs/handaxe Installer.event"
+}
+{
+#include "Mounts/SalvCavs/sword Installer.event"
+}
+{
+#include "Mounts/SalvCavs/lance Installer.event"
+}
+{
+#include "Mounts/SalvCavs/disarmed Installer.event"
+}
+
+LordrikaAnim:
+SwordAnim(0x3)
+UnarmedAnim(0x4)
+WORD 0x0    // Seperator
 
 SalvCavAnim:
 SwordAnim(0x34)
@@ -97,21 +94,11 @@ SpearAnim(0x35)
 UnarmedAnim(0x36)
 WORD 0x0    // Seperator
 
-LordrikaAnim:
-SwordAnim(0x3)
-UnarmedAnim(0x4)
-WORD 0x0    // Seperator
-
 MonkAnim:
 AnimaAnim(0x7d)
 LightAnim(0x7d)
 DarkAnim(0x7d)
 UnarmedAnim(0x7d)
-WORD 0x0    // Seperator
-
-SoldierAnim:
-SpearAnim(0x98)
-UnarmedAnim(0x99)
 WORD 0x0    // Seperator
 
 PriestAnim:
@@ -123,11 +110,10 @@ ThiefAnim:
 SwordAnim(0x89)
 WORD 0x0    // Seperator
 
-//NewFighterAnim:
-//AxeAnim(0x19)
-//HandAxeAnim(0x1a)
-//UnarmedAnim(0x1b)
-//WORD 0x0    // Seperator
+SoldierAnim:
+SpearAnim(0x98)
+UnarmedAnim(0x99)
+WORD 0x0    // Seperator
 
 NewPirateAnim:
 AxeAnim(0x9a)
@@ -136,11 +122,23 @@ UnarmedAnim(0x9c)
 WORD 0x0    // Seperator
 
 FemercAnim:
-SwordAnim(0xcd)
-UnarmedAnim(0xce)
+SwordAnim(0xca)
+UnarmedAnim(0xcb)
 WORD 0x0    // Seperator
 
 HalberdAnim:
-SpearAnim(0xcf)
-UnarmedAnim(0xd0)
+SpearAnim(0xcc)
+UnarmedAnim(0xcd)
 WORD 0x0    // Seperator
+
+//NewFighterAnim:
+//AxeAnim(0x19)
+//HandAxeAnim(0x1a)
+//UnarmedAnim(0x1b)
+//WORD 0x0    // Seperator
+
+//AxeCavAnim:
+//AxeAnim(0xcf)
+//HandAxeAnim(0xce)
+//UnarmedAnim(0xd0)
+//WORD 0x0    // Seperator
